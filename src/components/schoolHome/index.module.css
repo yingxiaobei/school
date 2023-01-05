@@ -1,0 +1,22 @@
+/* .ownWrapper :global .ant-table-placeholder {
+  height: 150px !important;
+}
+
+.ownWrapper :global tbody {
+  height: 150px !important;
+} */
+.qrcode-title {
+  font-size: 18px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  color: #000a12;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.qrcode-item {
+  font-size: 13px;
+  font-family: PingFangSC-Light, PingFang SC;
+  font-weight: 300;
+  color: #42434b;
+  line-height: 17px;
+  text-align: center;
+}

@@ -1,0 +1,376 @@
+[
+  {
+    "code": "carManage",
+    "title": "车辆管理",
+    "parentCode": "-1",
+    "orderNum": 8,
+    "icon": "CarOutlined",
+    "type": "dirt",
+    "elements": []
+  },
+  {
+    "code": "carInfo",
+    "title": "车辆管理",
+    "orderNum": 801,
+    "parentCode": "carManage",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/carInfo:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn2",
+        "name": "详情",
+        "uri": "/api/jp-train-noncore-svc/v1/schCar/selectByKey",
+        "method": "GET"
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn3",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn4",
+        "name": "启用",
+        "uri": "/api/jp-train-noncore-svc/v1/schCar/updateCarStatus",
+        "method": "PUT"
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn5",
+        "name": "停用",
+        "uri": "/api/jp-train-noncore-svc/v1/schCar/updateCarStatus",
+        "method": "PUT"
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn6",
+        "name": "备案",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn7",
+        "name": "注销",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "ignoreCar",
+        "name": "查询",
+        "uri": "/api/jp-train-noncore-svc/v1/schCar/pageList",
+        "method": "GET"
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn8",
+        "name": "获取审核结果",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn9",
+        "name": "绑定车辆模型",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn10",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn11",
+        "name": "OBD审核",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn12",
+        "name": "恢复OBD",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn13",
+        "name": "保险记录新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn14",
+        "name": "保险记录编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn15",
+        "name": "保险记录删除",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn16",
+        "name": "保险记录附件上传、查看",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn17",
+        "name": "浙里办模式",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn18",
+        "name": " 同步省监管信息",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/carInfo:btn19",
+        "name": " 设备同步",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "teachingArea",
+    "title": "教学区域",
+    "orderNum": 802,
+    "parentCode": "carManage",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/teachingArea:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/teachingArea:btn2",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/teachingArea:btn3",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/teachingArea:btn4",
+        "name": "注销",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/teachingArea:btn5",
+        "name": "备案",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/teachingArea:btn7",
+        "name": "获取审核结果",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/teachingArea:btn8",
+        "name": "绑定场地模型",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/teachingArea:btn9",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "fenceManagement",
+    "title": "围栏版本",
+    "orderNum": 803,
+    "parentCode": "carManage",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/fenceManagement:btn1",
+        "name": "设置通用围栏",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/fenceManagement:btn2",
+        "name": "发布新版本",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/fenceManagement:btn3",
+        "name": "版本记录",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "fenceManagementNew",
+    "title": "围栏版本(新)",
+    "orderNum": 803.1,
+    "parentCode": "carManage",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/fenceManagementnew:btn1",
+        "name": "设置通用围栏",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/fenceManagementnew:btn2",
+        "name": "发布新版本",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/fenceManagementnew:btn3",
+        "name": "版本记录",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "vehicleTrajectory",
+    "title": "车辆轨迹",
+    "orderNum": 804,
+    "parentCode": "carManage",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "carMonitor",
+    "title": "车辆监控",
+    "orderNum": 805,
+    "parentCode": "carManage",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/carMonitor:btn1",
+        "name": "拍照",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "videoMonitor",
+    "title": "视频监控",
+    "orderNum": 806,
+    "parentCode": "carManage",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "videoMonitor/videoMonitor:VideoPlayBack",
+        "name": "视频回放",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "carAlarm",
+    "title": "车辆报警",
+    "orderNum": 807,
+    "parentCode": "carManage",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "carManage/carAlarm:btn1",
+        "name": "查看照片",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "carManage/carAlarm:btn2",
+        "name": "查看视频",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "simulator",
+    "title": "模拟器管理",
+    "orderNum": 808,
+    "parentCode": "carManage",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "carManage/simulator:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "carManage/simulator:btn2",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "carManage/simulator:btn3",
+        "name": "备案",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "carManage/simulator:btn4",
+        "name": "绑定",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "carManage/simulator:btn5",
+        "name": "解除绑定",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "carManage/simulator:btn6",
+        "name": "监管删除",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "carManage/simulator:btn7",
+        "name": "注销",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "carManage/simulator:btn8",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

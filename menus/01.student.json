@@ -1,0 +1,759 @@
+[
+  {
+    "code": "student",
+    "title": "学员管理",
+    "parentCode": "-1",
+    "orderNum": 1,
+    "icon": "PayCircleOutlined",
+    "type": "dirt",
+    "elements": []
+  },
+  {
+    "code": "studentInfo",
+    "title": "学员档案",
+    "orderNum": 101,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/studentInfo:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn2",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn3",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn5",
+        "name": "生成合同/重新生成合同",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn6",
+        "name": "备案",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn7",
+        "name": "绑定二代证",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn8",
+        "name": "转C2车型",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn10",
+        "name": "读二代证",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn11",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn12",
+        "name": "开户",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn13",
+        "name": "充值",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:periodCertTotaltime",
+        "name": "额定学时(从业资格)",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:certTotaltime",
+        "name": "已训学时(从业资格)",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:validCertTotaltime",
+        "name": "可报审学时(从业资格)",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:upTime",
+        "name": "已上传学时(从业资格)",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn14",
+        "name": "转入",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn15",
+        "name": "确认生成合同并签字",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:AccountInfo",
+        "name": "账户信息",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn16",
+        "name": "免签",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn17",
+        "name": "取消免签",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn18",
+        "name": "培训记录单套打",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn19",
+        "name": "电子教学日志套打",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn20",
+        "name": "获取转入审核结果",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn21",
+        "name": "转校申请",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn22",
+        "name": "老版本培训记录单",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn23",
+        "name": "从业证件申领登记表",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn24",
+        "name": "获取监管平台学时",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn25",
+        "name": "监管注销",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn26",
+        "name": "上传合同",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn27",
+        "name": "重推鸿阳",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn29",
+        "name": "理论教学日志",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn30",
+        "name": "销户",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn31",
+        "name": "更换班级",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn32",
+        "name": "同步监管学时（实操）",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn33",
+        "name": "清空统一编码",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn34",
+        "name": "浙里办模式",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn35",
+        "name": "转C1车型",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn36",
+        "name": "同步监管报审记录",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn37",
+        "name": "档案批量打印",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn38",
+        "name": "结算记录-导出",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn39",
+        "name": "学时汇总",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn40",
+        "name": "设备同步",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn41",
+        "name": "学员批量备案",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn42",
+        "name": "批量理论审核",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn43",
+        "name": "修改APP登录手机号",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn44",
+        "name": "上传学习证明",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentInfo:btn45",
+        "name": "更新学员建档基本信息",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "studentCardMaking",
+    "title": "学员制卡",
+    "orderNum": 102,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/studentCardMaking:btn1",
+        "name": "读IC卡",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentCardMaking:btn2",
+        "name": "读二代证",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentCardMaking:btn3",
+        "name": "制卡",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentCardMaking:btn4",
+        "name": "补卡",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentCardMaking:btn5",
+        "name": "延期",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentCardMaking:btn6",
+        "name": "申请",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentCardMaking:btn7",
+        "name": "获取申请结果",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "studentFace",
+    "title": "学员人脸审核",
+    "orderNum": 103,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/studentFace:btn1",
+        "name": "查看模板",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentFace:btn2",
+        "name": "审核",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentFace:btn3",
+        "name": "作废",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "studentAcrossInstitution",
+    "title": "学员跨机构",
+    "orderNum": 104,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/studentAcrossInstitution:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentAcrossInstitution:btn2",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentAcrossInstitution:btn3",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentAcrossInstitution:btn4",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentAcrossInstitution:btn5",
+        "name": "生成合同",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentAcrossInstitution:btn6",
+        "name": "备案",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentAcrossInstitution:btn7",
+        "name": "绑定二代证",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentAcrossInstitution:btn8",
+        "name": "转C2车型",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "studentGraduate",
+    "title": "学员结业",
+    "orderNum": 105,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/studentGraduate:btn1",
+        "name": "结业申请",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentGraduate:btn2",
+        "name": "结业证查看/附件查看",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentGraduate:btn3",
+        "name": "上传",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentGraduate:btn4",
+        "name": "结业审核",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentGraduate:btn5",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentGraduate:btn6",
+        "name": "重置结业",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "studentDropped",
+    "title": "学员退学",
+    "orderNum": 106,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/studentDropped:btn1",
+        "name": "退学申请",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentDropped:btn2",
+        "name": "同意",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentDropped:btn3",
+        "name": "拒绝",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentDropped:btn4",
+        "name": "撤销",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentDropped:btn5",
+        "name": "监管注销",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/studentDropped:btn6",
+        "name": "监管注销审核",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "phaseDeclare",
+    "title": "学时申报",
+    "orderNum": 107,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/phaseDeclare:btn1",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phaseDeclare:btn2",
+        "name": "获取申报结果",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phaseDeclare:btn3",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "openClass",
+    "title": "开班管理",
+    "orderNum": 107,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/openClass:btn1",
+        "name": "班次管理",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/openClass:btn2",
+        "name": "学员开班",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/openClass:btn3",
+        "name": "开班备案",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/openClass:btn4",
+        "name": "理科中心财务审核",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/openClass:btn5",
+        "name": "获取备案审核结果",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/openClass:btn6",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "periodManagement",
+    "title": "期数管理",
+    "orderNum": 109,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/periodManagement:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "historicalStudentProfile",
+    "title": "历史学员档案",
+    "orderNum": 110,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/historicalStudentProfile:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/historicalStudentProfile:btn2",
+        "name": "转正常学员",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "applicationReview",
+    "title": "报审补录",
+    "orderNum": 111,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/applicationReview:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/applicationReview:btn2",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/applicationReview:btn3",
+        "name": "报审补录",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "theoryStudents",
+    "title": "理论学员档案",
+    "orderNum": 112,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/theoryStudents:btn1",
+        "name": "理论教学日志打印",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/theoryStudents:btn2",
+        "name": "读二代证搜索",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/theoryStudents:btn3",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/theoryStudents:btn4",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/theoryStudents:btn5",
+        "name": "绑定二代证",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/theoryStudents:btn6",
+        "name": "模拟中心审核",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "application",
+    "title": "申请管理",
+    "orderNum": 113,
+    "parentCode": "student",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/application:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/application:btn2",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/application:btn3",
+        "name": "重新提交",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/application:btn4",
+        "name": "新增申请",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/application:btn5",
+        "name": "申请监管审核",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

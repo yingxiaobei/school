@@ -1,0 +1,110 @@
+[
+  {
+    "code": "market",
+    "title": "招生营销",
+    "parentCode": "-1",
+    "orderNum": 0,
+    "icon": "UserAddOutlined",
+    "type": "dirt",
+    "elements": []
+  },
+  {
+    "code": "forecastReview",
+    "title": "意向学员",
+    "orderNum": 3,
+    "parentCode": "market",
+    "icon": "null",
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/forecastReview:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/forecastReview:btn2",
+        "name": "审核",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "forecastExpected",
+    "title": "预报名受理",
+    "orderNum": 1,
+    "parentCode": "market",
+    "icon": "null",
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/forecastExpected:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/forecastExpected:btn2",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/forecastExpected:btn3",
+        "name": "转正",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/forecastExpected:btn4",
+        "name": "读二代证",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/forecastExpected:btn5",
+        "name": "注销",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "forecastChecked",
+    "title": "预报名审核",
+    "orderNum": 2,
+    "parentCode": "market",
+    "icon": "null",
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/forecastChecked:btn1",
+        "name": "审核",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/forecastChecked:btn2",
+        "name": "读二代证",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/forecastChecked:btn3",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "abnormalStudent",
+    "title": "异常学员推送",
+    "orderNum": 102,
+    "parentCode": "market",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>餐厅</title>
+    <g id="远方驾服" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="驾校首页-班型" transform="translate(-40.000000, -2382.000000)">
+            <g id="编组-18" transform="translate(0.000000, 2256.001606)">
+                <g id="编组-11" transform="translate(40.000000, 126.000000)">
+                    <circle id="椭圆形备份-3" fill="#FE1433" opacity="0.07" cx="41" cy="41" r="41"></circle>
+                    <g id="面条_noodles" transform="translate(20.500000, 20.500000)">
+                        <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="41" height="41"></rect>
+                        <path d="M3.41666667,20.5 C3.41666667,29.9348687 9.11113958,37.5833333 20.5,37.5833333 C31.8888604,37.5833333 37.5833333,29.9348687 37.5833333,20.5 L3.41666667,20.5 Z" id="路径" stroke="#333333" stroke-width="3.41666667" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <line x1="13.6666667" y1="20.5" x2="13.6666667" y2="6.83333333" id="路径" stroke="#333333" stroke-width="3.41666667" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="20.5" y1="20.5" x2="20.5" y2="5.125" id="路径" stroke="#333333" stroke-width="3.41666667" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="27.3333333" y1="20.5" x2="27.3333333" y2="3.41666667" id="路径" stroke="#333333" stroke-width="3.41666667" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="6.83333333" y1="20.5" x2="6.83333333" y2="8.54166667" id="路径" stroke="#333333" stroke-width="3.41666667" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="3.41666667" y1="11.1041667" x2="37.5833333" y2="3.41666667" id="路径" stroke="#333333" stroke-width="3.41666667" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,522 @@
+$color-primary: #f3302b;
+$color-border: #f0f0f0;
+
+// TODO:
+$color-fef4e4: #fef4e4;
+$color-e6a23c: #e6a23c;
+$color-green: green;
+$color-black: black;
+$color-red: red;
+$color-009900: #009900;
+$color-ff0000: #ff0000;
+$color-979494: #979494;
+$color-a2a0a0: #a2a0a0;
+$color-1890ff: #1890ff;
+$color-999999: #999999;
+$color-666666: #666666;
+$color-fff: #fff;
+
+$s1: 1px;
+$s4: 4px;
+$s8: 8px;
+$s10: 10px;
+$s12: 12px;
+$s16: 16px;
+$s20: 20px;
+$s40: 40px;
+$s60: 60px;
+
+// color ------------------------------------------
+.color-primary {
+  color: $color-primary !important;
+}
+.color-999999 {
+  color: $color-999999 !important;
+}
+.color-666666 {
+  color: $color-666666 !important;
+}
+// flex ------------------------------------------
+.flex {
+  display: flex;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.direction-row-reverse {
+  flex-direction: row-reverse;
+}
+.direction-col {
+  flex-direction: column;
+}
+.direction-row {
+  flex-direction: row;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-between {
+  justify-content: space-between;
+}
+.flex1 {
+  flex: 1;
+}
+// font size ------------------------------------------
+.fz12 {
+  font-size: 12px;
+}
+
+.fz14 {
+  font-size: 14px;
+}
+
+.fz16 {
+  font-size: 16px;
+}
+
+.fz18 {
+  font-size: 18px;
+}
+
+.fz20 {
+  font-size: 20px;
+}
+
+.fz22 {
+  font-size: 22px;
+}
+
+.fz24 {
+  font-size: 24px;
+}
+.fz26 {
+  font-size: 26px;
+}
+.fz28 {
+  font-size: 28px;
+}
+
+.fz30 {
+  font-size: 30px;
+}
+.fz36 {
+  font-size: 36px;
+}
+.fz50 {
+  font-size: 50px;
+}
+
+// font weight ------------------------------------------
+.bold {
+  font-weight: bold;
+}
+
+.bold-500 {
+  font-weight: 500;
+}
+
+.bold-400 {
+  font-weight: 400;
+}
+
+// border ------------------------------------------
+.border-all {
+  border: 1px solid $color-border !important;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.border-top {
+  border-top: 1px solid $color-border !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $color-border !important;
+}
+
+.border-left {
+  border-left: 1px solid $color-border !important;
+}
+
+.border-right {
+  border-right: 1px solid $color-border !important;
+}
+
+.border-dashed {
+  border: 1px dashed $color-border;
+}
+
+// hover ------------------------------------------
+.hover-active {
+  &:hover {
+    color: $color-primary !important;
+    cursor: pointer;
+  }
+}
+
+// cursor ------------------------------------------
+.pointer {
+  cursor: pointer;
+}
+
+// text-position ------------------------------------------
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+// margin ------------------------------------------
+.mt4 {
+  margin-top: $s4 !important;
+}
+
+.mr4 {
+  margin-right: $s4 !important;
+}
+
+.mb4 {
+  margin-bottom: $s4 !important;
+}
+
+.ml4 {
+  margin-left: $s4 !important;
+}
+
+.mt20 {
+  margin-top: $s20 !important;
+}
+.mt60 {
+  margin-top: $s60 !important;
+}
+.mr20 {
+  margin-right: $s20 !important;
+}
+.mr40 {
+  margin-right: $s40 !important;
+}
+
+.mb20 {
+  margin-bottom: $s20 !important;
+}
+.mb16 {
+  margin-bottom: 16px !important;
+}
+.ml20 {
+  margin-left: $s20 !important;
+}
+
+.mt10 {
+  margin-top: $s10 !important;
+}
+
+.mr10 {
+  margin-right: $s10 !important;
+}
+
+.mb10 {
+  margin-bottom: $s10 !important;
+}
+
+.ml10 {
+  margin-left: $s10 !important;
+}
+
+// padding
+.pt80 {
+  padding-top: 80px !important;
+}
+
+.pt10 {
+  padding-top: 10px !important;
+}
+.pt40 {
+  padding-top: 40px !important;
+}
+.pl20 {
+  padding-left: 20px !important;
+}
+.pr20 {
+  padding-right: 20px !important;
+}
+.pb20 {
+  padding-bottom: 20px !important;
+}
+.p24 {
+  padding: 24px;
+}
+
+.p10 {
+  padding: 10px;
+}
+.p6 {
+  padding: 6px;
+}
+
+// width ------------------------------------------
+
+.w200 {
+  width: 200px !important;
+}
+
+.w180 {
+  width: 180px !important;
+}
+.w120 {
+  width: 120px !important;
+}
+.w100 {
+  width: 100px !important;
+}
+
+.w80 {
+  width: 80px !important;
+}
+
+.w60 {
+  width: 60px !important;
+}
+.w30 {
+  width: 30px !important;
+}
+.w10 {
+  width: 10px !important;
+}
+
+.full-width {
+  width: 100% !important;
+}
+.full-height {
+  height: 100% !important;
+}
+.half-width {
+  width: 50% !important;
+}
+.half-height {
+  height: 50% !important;
+}
+// color
+.green {
+  color: $color-green !important;
+}
+
+//position --------------------------------------
+.absolute {
+  position: absolute !important;
+}
+.relative {
+  position: relative !important;
+}
+.fixed {
+  position: fixed !important;
+}
+
+//
+.whitespace-normal {
+  white-space: normal;
+}
+
+.background-white {
+  background: $color-fff;
+}
+// other ------------------------------------------
+.operation-button {
+  // margin-right: $s4;
+  padding-left: 2px !important;
+  // margin-bottom: $s4;
+  font-size: $s12;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+.operation-btn {
+  content: '';
+  margin-left: 10px;
+  border-left: 1px solid #c0c4cc;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.operation-button {
+  &:after {
+    @extend .operation-btn;
+  }
+}
+.operation-button:last-child {
+  &:after {
+    @extend .operation-btn;
+    border-left: 0 !important;
+  }
+}
+.operation-menu .operation-button {
+  &:after {
+    @extend .operation-btn;
+    border-left: 0 !important;
+  }
+}
+.ant-dropdown-link {
+  font-size: 13px !important;
+}
+.operation-dropdown {
+  &:after {
+    @extend .operation-btn;
+  }
+}
+.operation-dropdown:last-child {
+  &:after {
+    @extend .operation-btn;
+    border-left: 0 !important;
+  }
+}
+.list-point:before {
+  content: '●';
+  color: #098dff;
+}
+
+.areaCls:checked {
+  color: #098dff;
+}
+
+.robotDetailImg {
+  width: 30px;
+  margin: 5px;
+}
+.robotImgDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.robotCoachInput .ant-input {
+  background: #060520;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.textEllipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.robotVideo video {
+  object-fit: fill;
+  width: 490px;
+  height: 240px;
+}
+.img-icon {
+  width: 20px;
+}
+.img-icon-s {
+  width: 16px;
+}
+.questionIcon {
+  margin-left: 5px !important;
+  color: $color-a2a0a0;
+}
+
+.questionIcon-30 {
+  @extend .questionIcon;
+  line-height: 30px !important;
+}
+
+.questionIcon-40 {
+  @extend .questionIcon;
+  line-height: 40px !important;
+}
+
+//modal drawer 在tabpanel范围内弹窗
+.customTab {
+  position: relative;
+}
+.customTab .ant-modal-mask {
+  position: absolute !important;
+}
+.customTab .ant-modal-wrap {
+  position: absolute !important;
+}
+.customTab .ant-drawer {
+  position: absolute !important;
+}
+#nprogress .bar {
+  //进度条颜色
+  background: $color-primary !important;
+}
+::selection {
+  background-color: #3390ff !important;
+}
+::-moz-selection {
+  background-color: #3390ff !important;
+}
+.react-resizable {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  bottom: 0;
+  right: -5px;
+  cursor: ew-resize;
+  z-index: 1;
+}
+
+/** 这里是偏移的时候显示的竖线，只有表头有竖线;
+如果需要联通表格请自行修改高度，1000倍表头高度，然后超出表格隐藏什么的（自行研究） */
+.react-resizable-handle.active::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  border-left: solid 1px black;
+}
+.dragHandler:hover {
+  cursor: move;
+  background-color: #ccc;
+}
+// .ant-table-thead > tr > .ant-table-cell-ellipsis {
+//   overflow: initial;
+//   //padding: 0 10px;
+//   user-select: none;
+//   & > span:nth-of-type(1) {
+//     display: block;
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+//     word-break: keep-all;
+//     width: 100%;
+//   }
+// }

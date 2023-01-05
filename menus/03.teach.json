@@ -1,0 +1,121 @@
+[
+  {
+    "code": "teach",
+    "title": "约课管理",
+    "orderNum": 3,
+    "parentCode": "-1",
+    "icon": "ScheduleOutlined",
+    "type": "dirt",
+    "elements": []
+  },
+  {
+    "code": "timeRule",
+    "title": "规则设置",
+    "orderNum": 301,
+    "parentCode": "teach",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "teach/timeRule:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "teach/timeRule:btn2",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "teach/timeRule:btn3",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "realTimeAppointment",
+    "title": "实操约排课",
+    "orderNum": 302,
+    "parentCode": "teach",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "teach/realTimeAppointment:btn1",
+        "name": "新增课程",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "teach/realTimeAppointment:btn2",
+        "name": "约排课",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "simulationAppointment",
+    "title": "模拟约排课",
+    "orderNum": 303,
+    "parentCode": "teach",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "teach/simulationAppointment:btn1",
+        "name": "新增课程",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "teach/simulationAppointment:btn2",
+        "name": "约排课",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "theoryAppointment",
+    "title": "理论约排课",
+    "orderNum": 304,
+    "parentCode": "teach",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "teach/theoryAppointment:btn1",
+        "name": "新增课程",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "teach/theoryAppointment:btn2",
+        "name": "约排课",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "orderRecord",
+    "title": "预约记录",
+    "orderNum": 305,
+    "parentCode": "teach",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "teach/orderRecord:btn1",
+        "name": "取消预约",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

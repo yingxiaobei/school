@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>休息室</title>
+    <g id="远方驾服" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="驾校首页-班型" transform="translate(-628.000000, -2382.000000)">
+            <g id="编组-18" transform="translate(0.000000, 2256.001606)">
+                <g id="编组" transform="translate(628.000000, 126.000000)">
+                    <circle id="椭圆形备份-8" fill="#FE1433" opacity="0.07" cx="41" cy="41" r="41"></circle>
+                    <g id="单人床_single-bed" transform="translate(18.000000, 18.000000)">
+                        <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="46" height="46"></rect>
+                        <path d="M7.66666667,11.5 C7.66666667,9.9121375 8.95385208,8.625 10.5416667,8.625 L35.4583333,8.625 C37.0461958,8.625 38.3333333,9.9121375 38.3333333,11.5 L38.3333333,22.0416667 L7.66666667,22.0416667 L7.66666667,11.5 Z" id="路径" stroke="#333333" stroke-width="3.83333333" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <line x1="5.75" y1="33.5416667" x2="5.75" y2="37.375" id="路径" stroke="#333333" stroke-width="3.83333333" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="40.25" y1="33.5416667" x2="40.25" y2="37.375" id="路径" stroke="#333333" stroke-width="3.83333333" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <path d="M27.7916667,17.25 L18.2083333,17.25 C16.6204708,17.25 15.3333333,18.5371375 15.3333333,20.125 L15.3333333,22.0416667 L30.6666667,22.0416667 L30.6666667,20.125 C30.6666667,18.5371375 29.3795292,17.25 27.7916667,17.25 Z" id="路径" stroke="#333333" stroke-width="3.83333333" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M3.83333333,24.9166667 C3.83333333,23.3288042 5.12051875,22.0416667 6.70833333,22.0416667 L39.2916667,22.0416667 C40.8795292,22.0416667 42.1666667,23.3288042 42.1666667,24.9166667 L42.1666667,33.5416667 L3.83333333,33.5416667 L3.83333333,24.9166667 Z" id="路径" stroke="#333333" stroke-width="3.83333333" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

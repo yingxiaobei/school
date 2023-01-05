@@ -1,0 +1,57 @@
+[
+  {
+    "code": "smartPassage",
+    "title": "智慧通行管理",
+    "parentCode": "-1",
+    "icon": "RobotOutlined",
+    "type": "dirt",
+    "orderNum": 14,
+    "elements": []
+  },
+  {
+    "code": "smartPassage/personManage",
+    "title": "人员管理",
+    "orderNum": 1401,
+    "parentCode": "smartPassage",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "smartPassage/personManage:btn4",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "smartPassage/personManage:btn1",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "smartPassage/personManage:btn2",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "smartPassage/personManage:btn3",
+        "name": "启用/禁用",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "smartPassage/personManage:btn5",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "smartPassage/personManage:btn6",
+        "name": "启用/禁用",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

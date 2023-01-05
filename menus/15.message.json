@@ -1,0 +1,33 @@
+[
+  {
+    "code": "message",
+    "title": "消息管理",
+    "parentCode": "-1",
+    "icon": "MessageOutlined",
+    "type": "dirt",
+    "orderNum": 15,
+    "elements": []
+  },
+  {
+    "code": "messageList",
+    "title": "消息列表",
+    "orderNum": 1501,
+    "parentCode": "message",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "messageList:btn1",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "messageList:btn2",
+        "name": "全部标为已读",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

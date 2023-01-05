@@ -1,0 +1,17 @@
+.tabs {
+  padding: 0 20px;
+  /* background: @component-background; */
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.12); */
+  height: 100%;
+  overflow-y: auto;
+  padding-top: 10px;
+}
+.wrapper {
+  height: 100%;
+  overflow-y: auto;
+  /* https://developer.mozilla.org/zh-CN/docs/Web/CSS/scrollbar-width */
+  scrollbar-width: none; /* 有且仅支持 火狐内核的浏览器 */
+}
+.wrapper::-webkit-scrollbar {
+  display: none;
+}

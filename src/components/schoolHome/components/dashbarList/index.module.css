@@ -1,0 +1,44 @@
+.container {
+  padding: 20px 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  /* height: 200px; */
+}
+
+.wrapper {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.body :global .ant-empty-image svg {
+  height: 90%;
+}
+
+.text {
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dataHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.dataContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  /* margin-bottom: 15px; */
+}

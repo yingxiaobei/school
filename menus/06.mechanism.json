@@ -1,0 +1,257 @@
+[
+  {
+    "code": "mechanism",
+    "title": "机构管理",
+    "orderNum": 6,
+    "parentCode": "-1",
+    "icon": "ClusterOutlined",
+    "type": "dirt",
+    "elements": []
+  },
+  {
+    "code": "trainingInstitutionInfo",
+    "title": "信息查看",
+    "orderNum": 601,
+    "parentCode": "mechanism",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/trainingInstitution:btn1",
+        "name": "编辑",
+        "uri": "/api/usercenter/v1/company/{*}",
+        "method": "PUT"
+      },
+      {
+        "code": "trainingInstitution/trainingInstitution:btn2",
+        "name": "更改资质信息",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "userCenter/organizationManage:ignore1",
+        "name": "查看培训机构详情",
+        "uri": "/api/usercenter/v1/company/{*}/detail/sys",
+        "method": "GET"
+      },
+      {
+        "code": "userCenter/organizationManage:ignore2",
+        "name": "查询培训机构基础信息",
+        "uri": "",
+        "method": "GET"
+      },
+      {
+        "code": "userCenter/organizationManage:ignore3",
+        "name": "查询培训机构教学信息",
+        "uri": "",
+        "method": "GET"
+      },
+      {
+        "code": "userCenter/organizationManage:ignore4",
+        "name": "查询培训机构认证信息",
+        "uri": "/api/usercenter/v1/company/{*}/authInfo",
+        "method": "GET"
+      },
+      {
+        "code": "userCenter/organizationManage:ignore5",
+        "name": "查询培训机构图片",
+        "uri": "/api/usercenter/v1/company/{*}/imgs",
+        "method": "GET"
+      },
+      {
+        "code": "userCenter/organizationManage:ignore6",
+        "name": "删除培训机构图片",
+        "uri": "/api/usercenter/v1/company/{*}/img/{imgId}/delete",
+        "method": "DELETE"
+      },
+      {
+        "code": "userCenter/organizationManage:ignore7",
+        "name": "上传培训机构图片",
+        "uri": "/api/usercenter/v1/company/{*}/createImg",
+        "method": "POST"
+      }
+    ]
+  },
+  {
+    "code": "classInfo",
+    "title": "班级管理",
+    "orderNum": 602,
+    "parentCode": "mechanism",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/classInfo:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/classInfo:btn2",
+        "name": "注销",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/classInfo:btn3",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/classInfo:btn4",
+        "name": "备案",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/classInfo:btn5",
+        "name": "班级初始化",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/classInfo:btn6",
+        "name": "默认收款钱包",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "businessOutlet",
+    "title": "营业网点",
+    "orderNum": 603,
+    "parentCode": "mechanism",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/businessOutlet:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/businessOutlet:btn2",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/businessOutlet:btn3",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/businessOutlet:btn4",
+        "name": "配置驾校",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/businessOutlet:btn5",
+        "name": "配置教室",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/businessOutlet:btn6",
+        "name": "配置教练员",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/businessOutlet:btn7",
+        "name": "配置教练车",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/businessOutlet:btn8",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "contractTemplate",
+    "title": "合同模板",
+    "orderNum": 604,
+    "parentCode": "mechanism",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/contractTemplate:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/contractTemplate:btn2",
+        "name": "预览",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/contractTemplate:btn3",
+        "name": "模板配置",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/contractTemplate:btn4",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "branchMechanism",
+    "title": "分支机构",
+    "orderNum": 605,
+    "parentCode": "mechanism",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/branchMechanism:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/branchMechanism:btn2",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/branchMechanism:btn3",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "otherDevice",
+    "title": "其他设施设备",
+    "orderNum": 606,
+    "parentCode": "mechanism",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/otherDevice:btn1",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

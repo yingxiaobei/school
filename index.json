@@ -1,0 +1,3591 @@
+{
+  "title": "远方学车",
+  "category": "ERP",
+  "menus": [
+    {
+      "code": "market",
+      "title": "招生营销",
+      "parentCode": "-1",
+      "orderNum": 0,
+      "icon": "UserAddOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "forecastReview",
+      "title": "意向学员",
+      "orderNum": 3,
+      "parentCode": "market",
+      "icon": "null",
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/forecastReview:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/forecastReview:btn2",
+          "name": "审核",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "forecastExpected",
+      "title": "预报名受理",
+      "orderNum": 1,
+      "parentCode": "market",
+      "icon": "null",
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/forecastExpected:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/forecastExpected:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/forecastExpected:btn3",
+          "name": "转正",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/forecastExpected:btn4",
+          "name": "读二代证",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/forecastExpected:btn5",
+          "name": "注销",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "forecastChecked",
+      "title": "预报名审核",
+      "orderNum": 2,
+      "parentCode": "market",
+      "icon": "null",
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/forecastChecked:btn1",
+          "name": "审核",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/forecastChecked:btn2",
+          "name": "读二代证",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/forecastChecked:btn3",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "abnormalStudent",
+      "title": "异常学员推送",
+      "orderNum": 102,
+      "parentCode": "market",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "student",
+      "title": "学员管理",
+      "parentCode": "-1",
+      "orderNum": 1,
+      "icon": "PayCircleOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "studentInfo",
+      "title": "学员档案",
+      "orderNum": 101,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/studentInfo:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn2",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn3",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn5",
+          "name": "生成合同/重新生成合同",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn6",
+          "name": "备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn7",
+          "name": "绑定二代证",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn8",
+          "name": "转C2车型",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn10",
+          "name": "读二代证",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn11",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn12",
+          "name": "开户",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn13",
+          "name": "充值",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:periodCertTotaltime",
+          "name": "额定学时(从业资格)",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:certTotaltime",
+          "name": "已训学时(从业资格)",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:validCertTotaltime",
+          "name": "可报审学时(从业资格)",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:upTime",
+          "name": "已上传学时(从业资格)",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn14",
+          "name": "转入",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn15",
+          "name": "确认生成合同并签字",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:AccountInfo",
+          "name": "账户信息",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn16",
+          "name": "免签",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn17",
+          "name": "取消免签",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn18",
+          "name": "培训记录单套打",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn19",
+          "name": "电子教学日志套打",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn20",
+          "name": "获取转入审核结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn21",
+          "name": "转校申请",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn22",
+          "name": "老版本培训记录单",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn23",
+          "name": "从业证件申领登记表",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn24",
+          "name": "获取监管平台学时",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn25",
+          "name": "监管注销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn26",
+          "name": "上传合同",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn27",
+          "name": "重推鸿阳",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn29",
+          "name": "理论教学日志",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn30",
+          "name": "销户",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn31",
+          "name": "更换班级",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn32",
+          "name": "同步监管学时（实操）",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn33",
+          "name": "清空统一编码",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn34",
+          "name": "浙里办模式",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn35",
+          "name": "转C1车型",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn36",
+          "name": "同步监管报审记录",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn37",
+          "name": "档案批量打印",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn38",
+          "name": "结算记录-导出",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn39",
+          "name": "学时汇总",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn40",
+          "name": "设备同步",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn41",
+          "name": "学员批量备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn42",
+          "name": "批量理论审核",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn43",
+          "name": "修改APP登录手机号",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn44",
+          "name": "上传学习证明",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentInfo:btn45",
+          "name": "更新学员建档基本信息",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "studentCardMaking",
+      "title": "学员制卡",
+      "orderNum": 102,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/studentCardMaking:btn1",
+          "name": "读IC卡",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentCardMaking:btn2",
+          "name": "读二代证",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentCardMaking:btn3",
+          "name": "制卡",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentCardMaking:btn4",
+          "name": "补卡",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentCardMaking:btn5",
+          "name": "延期",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentCardMaking:btn6",
+          "name": "申请",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentCardMaking:btn7",
+          "name": "获取申请结果",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "studentFace",
+      "title": "学员人脸审核",
+      "orderNum": 103,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/studentFace:btn1",
+          "name": "查看模板",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentFace:btn2",
+          "name": "审核",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentFace:btn3",
+          "name": "作废",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "studentAcrossInstitution",
+      "title": "学员跨机构",
+      "orderNum": 104,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/studentAcrossInstitution:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentAcrossInstitution:btn2",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentAcrossInstitution:btn3",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentAcrossInstitution:btn4",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentAcrossInstitution:btn5",
+          "name": "生成合同",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentAcrossInstitution:btn6",
+          "name": "备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentAcrossInstitution:btn7",
+          "name": "绑定二代证",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentAcrossInstitution:btn8",
+          "name": "转C2车型",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "studentGraduate",
+      "title": "学员结业",
+      "orderNum": 105,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/studentGraduate:btn1",
+          "name": "结业申请",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentGraduate:btn2",
+          "name": "结业证查看/附件查看",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentGraduate:btn3",
+          "name": "上传",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentGraduate:btn4",
+          "name": "结业审核",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentGraduate:btn5",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentGraduate:btn6",
+          "name": "重置结业",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "studentDropped",
+      "title": "学员退学",
+      "orderNum": 106,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/studentDropped:btn1",
+          "name": "退学申请",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentDropped:btn2",
+          "name": "同意",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentDropped:btn3",
+          "name": "拒绝",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentDropped:btn4",
+          "name": "撤销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentDropped:btn5",
+          "name": "监管注销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/studentDropped:btn6",
+          "name": "监管注销审核",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "phaseDeclare",
+      "title": "学时申报",
+      "orderNum": 107,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/phaseDeclare:btn1",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phaseDeclare:btn2",
+          "name": "获取申报结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phaseDeclare:btn3",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "openClass",
+      "title": "开班管理",
+      "orderNum": 107,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/openClass:btn1",
+          "name": "班次管理",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/openClass:btn2",
+          "name": "学员开班",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/openClass:btn3",
+          "name": "开班备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/openClass:btn4",
+          "name": "理科中心财务审核",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/openClass:btn5",
+          "name": "获取备案审核结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/openClass:btn6",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "periodManagement",
+      "title": "期数管理",
+      "orderNum": 109,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/periodManagement:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "historicalStudentProfile",
+      "title": "历史学员档案",
+      "orderNum": 110,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/historicalStudentProfile:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/historicalStudentProfile:btn2",
+          "name": "转正常学员",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "applicationReview",
+      "title": "报审补录",
+      "orderNum": 111,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/applicationReview:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/applicationReview:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/applicationReview:btn3",
+          "name": "报审补录",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "theoryStudents",
+      "title": "理论学员档案",
+      "orderNum": 112,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/theoryStudents:btn1",
+          "name": "理论教学日志打印",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/theoryStudents:btn2",
+          "name": "读二代证搜索",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/theoryStudents:btn3",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/theoryStudents:btn4",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/theoryStudents:btn5",
+          "name": "绑定二代证",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/theoryStudents:btn6",
+          "name": "模拟中心审核",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "application",
+      "title": "申请管理",
+      "orderNum": 113,
+      "parentCode": "student",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/application:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/application:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/application:btn3",
+          "name": "重新提交",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/application:btn4",
+          "name": "新增申请",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/application:btn5",
+          "name": "申请监管审核",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "trainingInstitution",
+      "title": "培训管理",
+      "parentCode": "-1",
+      "icon": "CalendarOutlined",
+      "type": "dirt",
+      "orderNum": 2,
+      "elements": []
+    },
+    {
+      "code": "teachingJournal",
+      "title": "电子教学日志",
+      "orderNum": 201,
+      "parentCode": "trainingInstitution",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/teachingJournal:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn2",
+          "name": "上传",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn3",
+          "name": "学时初审",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn4",
+          "name": "查询",
+          "uri": "",
+          "method": "GET"
+        },
+        {
+          "code": "student/teachingJournal:btn5",
+          "name": "批量上传",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn6",
+          "name": "查询审核结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:iscyzg",
+          "name": "从业资格学时",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn7",
+          "name": "批量补传",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn8",
+          "name": "批量学时初审(批量有效/无效)",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn9",
+          "name": "详情-学时有效",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn10",
+          "name": "详情-学时无效",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn11",
+          "name": "详情-上传",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn12",
+          "name": "修改编号",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn13",
+          "name": "获取设备照片",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn14",
+          "name": "批量上传-确定上传",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btnAppeal",
+          "name": "申诉",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btnMinutes",
+          "name": "补传分钟学时",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn15",
+          "name": "分钟学时-设为有效",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:btn16",
+          "name": "分钟学时-设为无效",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/teachingJournal:equipmentPhotoLog",
+          "name": "获取设备照片交互日志展示",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "finalAssessment",
+      "title": "结业考核",
+      "orderNum": 202,
+      "parentCode": "trainingInstitution",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/finalAssessment:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/finalAssessment:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/finalAssessment:btn3",
+          "name": "从业培训结业考核",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "phasedReview",
+      "title": "阶段报审",
+      "orderNum": 203,
+      "parentCode": "trainingInstitution",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/phasedReview:btn1",
+          "name": "初审",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn2",
+          "name": "撤销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn3",
+          "name": "获取审核结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn4",
+          "name": "上报",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn5",
+          "name": "批量上报",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn6",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn7",
+          "name": "学员签字",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:traincerttime",
+          "name": "可报审学时(从业资格)",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:outlineCertTotaltime",
+          "name": "额定学时(从业资格)",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn10",
+          "name": "补传培训记录单",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn11",
+          "name": "修正异常学时",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn12",
+          "name": "学员签名",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn13",
+          "name": "批量-获取审核结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn14",
+          "name": "重新上报",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn15",
+          "name": "推送公安",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn16",
+          "name": "配比学时管理",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn17",
+          "name": "删除配比学时",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn18",
+          "name": "上传学时证明",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn19",
+          "name": "重新生成配比学时",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn20",
+          "name": "清空培训记录单",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn21",
+          "name": "教练员签名",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/phasedReview:btn22",
+          "name": "考核员签名",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "trainingDetailReview",
+      "title": "培训明细",
+      "orderNum": 204,
+      "parentCode": "trainingInstitution",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "student/trainingDetailReview:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/trainingDetailReview:btn2",
+          "name": "上传",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/trainingDetailReview:btn3",
+          "name": "学时初审",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/trainingDetailReview:btn4",
+          "name": "分钟设为有效",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/trainingDetailReview:btn5",
+          "name": "分钟设为无效",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/trainingDetailReview:btn6",
+          "name": "反选",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "student/trainingDetailReview:btnAppeal",
+          "name": "申诉",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "signReset",
+      "title": "签到复位",
+      "orderNum": 206,
+      "parentCode": "trainingInstitution",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "teach/signReset:btn1",
+          "name": "学员复位",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "teach/signReset:btn2",
+          "name": "教练复位",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "classHourAudit",
+      "title": "学时审核管理",
+      "orderNum": 207,
+      "parentCode": "trainingInstitution",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/classHourAudit:btn1",
+          "name": "批量有效",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/classHourAudit:btn2",
+          "name": "批量无效",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/classHourAudit:btn3",
+          "name": "学时无效",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/classHourAudit:btn4",
+          "name": "学时有效",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/classHourAudit:btn5",
+          "name": "计时申诉",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "networkPhaseTesting",
+      "title": "网络阶段测试",
+      "orderNum": 208,
+      "parentCode": "trainingInstitution",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "simulatorTrain",
+      "title": "模拟器培训",
+      "orderNum": 209,
+      "parentCode": "trainingInstitution",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/simulatorTrain:export",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "teach",
+      "title": "约课管理",
+      "orderNum": 3,
+      "parentCode": "-1",
+      "icon": "ScheduleOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "timeRule",
+      "title": "规则设置",
+      "orderNum": 301,
+      "parentCode": "teach",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "teach/timeRule:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "teach/timeRule:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "teach/timeRule:btn3",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "realTimeAppointment",
+      "title": "实操约排课",
+      "orderNum": 302,
+      "parentCode": "teach",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "teach/realTimeAppointment:btn1",
+          "name": "新增课程",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "teach/realTimeAppointment:btn2",
+          "name": "约排课",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "simulationAppointment",
+      "title": "模拟约排课",
+      "orderNum": 303,
+      "parentCode": "teach",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "teach/simulationAppointment:btn1",
+          "name": "新增课程",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "teach/simulationAppointment:btn2",
+          "name": "约排课",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "theoryAppointment",
+      "title": "理论约排课",
+      "orderNum": 304,
+      "parentCode": "teach",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "teach/theoryAppointment:btn1",
+          "name": "新增课程",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "teach/theoryAppointment:btn2",
+          "name": "约排课",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "orderRecord",
+      "title": "预约记录",
+      "orderNum": 305,
+      "parentCode": "teach",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "teach/orderRecord:btn1",
+          "name": "取消预约",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "Evaluation",
+      "title": "评价管理",
+      "orderNum": 4,
+      "parentCode": "-1",
+      "icon": "LikeOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "coachEvaluation",
+      "title": "教练评价",
+      "orderNum": 401,
+      "parentCode": "Evaluation",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "coach/coachEvaluation:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "coachComplaints",
+      "title": "教练投诉",
+      "orderNum": 402,
+      "parentCode": "Evaluation",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "coach/coachComplaints:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "trainingInstitutionEvaluation",
+      "title": "驾校评价",
+      "orderNum": 403,
+      "parentCode": "Evaluation",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/trainingInstitutionEvaluation:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "trainingInstitutionComplaints",
+      "title": "驾校投诉",
+      "orderNum": 404,
+      "parentCode": "Evaluation",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/trainingInstitutionComplaints:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "financial",
+      "title": "财务管理",
+      "orderNum": 5,
+      "parentCode": "-1",
+      "icon": "MoneyCollectOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "financial/wallet",
+      "title": "钱包管理",
+      "orderNum": 501,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "financial/wallet:btn1",
+          "name": "开通/绑定",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/wallet:btn2",
+          "name": "提现",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/wallet:btn3",
+          "name": "绑卡信息",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/wallet:btn4",
+          "name": "交易明细",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/wallet:btn5",
+          "name": "充值",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "financial/studentOrder",
+      "title": "学员订单",
+      "orderNum": 502,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "financial/studentOrder:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/studentOrder:btn2",
+          "name": "改价",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "financial/settlementRecords",
+      "title": "结算记录",
+      "orderNum": 503,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "financial/settlementRecords:btn1",
+          "name": "立即结算",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/settlementRecords:btn2",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "financial/accountDetails",
+      "title": "账务明细",
+      "orderNum": 504,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "financial/transactionRecords",
+      "title": "交易记录",
+      "orderNum": 505,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "financial/transactionRecords:btn1",
+          "name": "退款",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "financial/bankStatement",
+      "title": "银行对账单",
+      "orderNum": 506,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "financial/bankStatement:btn1",
+          "name": "下载",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "financial/wellcomeWallet",
+      "title": "远方钱包",
+      "orderNum": 508,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "financial/wellcomeWallet:btn1",
+          "name": "充值",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/wellcomeWallet:btn2",
+          "name": "充值记录",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/wellcomeWallet:btn3",
+          "name": "消费记录",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/wellcomeWallet:btn4",
+          "name": "退卡记录",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/wellcomeWallet:btn5",
+          "name": "退卡明细",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "financial/coachSubAccount",
+      "title": "教练分账表",
+      "orderNum": 509,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "financial/splitAccount",
+          "name": "分账比例设置",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/splitAccount:btn1",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/splitAccount:btn2",
+          "name": "修改记录",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/splitAccount:btn3",
+          "name": "导入",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "financial/coachSubAccount:btn1",
+          "name": "立即分账",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "financial/coachAssessment",
+      "title": "教练考核",
+      "orderNum": 510,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "financial/coachAssessment:btn1",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "financial/studentDayTable",
+      "title": "学员日结算报表",
+      "orderNum": 511,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "financial/studentDayTable:btn1",
+          "name": "导出当页",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "financial/schoolDayTable",
+      "title": "驾校日结算报表",
+      "orderNum": 512,
+      "parentCode": "financial",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "financial/schoolDayTable:btn1",
+          "name": "导出当页",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "mechanism",
+      "title": "机构管理",
+      "orderNum": 6,
+      "parentCode": "-1",
+      "icon": "ClusterOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "trainingInstitutionInfo",
+      "title": "信息查看",
+      "orderNum": 601,
+      "parentCode": "mechanism",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/trainingInstitution:btn1",
+          "name": "编辑",
+          "uri": "/api/usercenter/v1/company/{*}",
+          "method": "PUT"
+        },
+        {
+          "code": "trainingInstitution/trainingInstitution:btn2",
+          "name": "更改资质信息",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "userCenter/organizationManage:ignore1",
+          "name": "查看培训机构详情",
+          "uri": "/api/usercenter/v1/company/{*}/detail/sys",
+          "method": "GET"
+        },
+        {
+          "code": "userCenter/organizationManage:ignore2",
+          "name": "查询培训机构基础信息",
+          "uri": "",
+          "method": "GET"
+        },
+        {
+          "code": "userCenter/organizationManage:ignore3",
+          "name": "查询培训机构教学信息",
+          "uri": "",
+          "method": "GET"
+        },
+        {
+          "code": "userCenter/organizationManage:ignore4",
+          "name": "查询培训机构认证信息",
+          "uri": "/api/usercenter/v1/company/{*}/authInfo",
+          "method": "GET"
+        },
+        {
+          "code": "userCenter/organizationManage:ignore5",
+          "name": "查询培训机构图片",
+          "uri": "/api/usercenter/v1/company/{*}/imgs",
+          "method": "GET"
+        },
+        {
+          "code": "userCenter/organizationManage:ignore6",
+          "name": "删除培训机构图片",
+          "uri": "/api/usercenter/v1/company/{*}/img/{imgId}/delete",
+          "method": "DELETE"
+        },
+        {
+          "code": "userCenter/organizationManage:ignore7",
+          "name": "上传培训机构图片",
+          "uri": "/api/usercenter/v1/company/{*}/createImg",
+          "method": "POST"
+        }
+      ]
+    },
+    {
+      "code": "classInfo",
+      "title": "班级管理",
+      "orderNum": 602,
+      "parentCode": "mechanism",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/classInfo:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/classInfo:btn2",
+          "name": "注销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/classInfo:btn3",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/classInfo:btn4",
+          "name": "备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/classInfo:btn5",
+          "name": "班级初始化",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/classInfo:btn6",
+          "name": "默认收款钱包",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "businessOutlet",
+      "title": "营业网点",
+      "orderNum": 603,
+      "parentCode": "mechanism",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/businessOutlet:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/businessOutlet:btn2",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/businessOutlet:btn3",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/businessOutlet:btn4",
+          "name": "配置驾校",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/businessOutlet:btn5",
+          "name": "配置教室",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/businessOutlet:btn6",
+          "name": "配置教练员",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/businessOutlet:btn7",
+          "name": "配置教练车",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/businessOutlet:btn8",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "contractTemplate",
+      "title": "合同模板",
+      "orderNum": 604,
+      "parentCode": "mechanism",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/contractTemplate:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/contractTemplate:btn2",
+          "name": "预览",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/contractTemplate:btn3",
+          "name": "模板配置",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/contractTemplate:btn4",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "branchMechanism",
+      "title": "分支机构",
+      "orderNum": 605,
+      "parentCode": "mechanism",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/branchMechanism:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/branchMechanism:btn2",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/branchMechanism:btn3",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "otherDevice",
+      "title": "其他设施设备",
+      "orderNum": 606,
+      "parentCode": "mechanism",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/otherDevice:btn1",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "personnel",
+      "title": "人事管理",
+      "orderNum": 7,
+      "parentCode": "-1",
+      "icon": "TeamOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "coachInfo",
+      "title": "教练员",
+      "orderNum": 701,
+      "parentCode": "personnel",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "coach/coachInfo:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn3",
+          "name": "注销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn4",
+          "name": "备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn5",
+          "name": "绑定身份证",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn6",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn7",
+          "name": "在教",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn8",
+          "name": "停教",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn9",
+          "name": "获取审核结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn10",
+          "name": "免签",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn11",
+          "name": "取消免签",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn12",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn13",
+          "name": "模拟器教练员",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn14",
+          "name": "继续教育-手动录入",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn15",
+          "name": "解除备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn16",
+          "name": "同步省监管信息",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn17",
+          "name": "设备同步",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachInfo:btn18",
+          "name": "修改APP登录手机号",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "securityOfficerInfo",
+      "title": "安全员",
+      "orderNum": 702,
+      "parentCode": "personnel",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "coach/securityOfficerInfo:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/securityOfficerInfo:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/securityOfficerInfo:btn3",
+          "name": "注销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/securityOfficerInfo:btn4",
+          "name": "备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/securityOfficerInfo:btn6",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/securityOfficerInfo:btn7",
+          "name": "在教",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/securityOfficerInfo:btn8",
+          "name": "停教",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/securityOfficerInfo:btn9",
+          "name": "获取审核结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/securityOfficerInfo:btn10",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "assesserInfo",
+      "title": "考核员",
+      "orderNum": 703,
+      "parentCode": "personnel",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "coach/assesserInfo:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/assesserInfo:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/assesserInfo:btn3",
+          "name": "注销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/assesserInfo:btn4",
+          "name": "备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/assesserInfo:btn6",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/assesserInfo:btn7",
+          "name": "在教",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/assesserInfo:btn8",
+          "name": "停教",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/assesserInfo:btn9",
+          "name": "考核员设置",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/assesserInfo:btn10",
+          "name": "获取审核结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/assesserInfo:btn11",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "coachCard",
+      "title": "教练员制卡",
+      "orderNum": 704,
+      "parentCode": "personnel",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "coach/coachCard:btn1",
+          "name": "制卡",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachCard:btn2",
+          "name": "补卡",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachCard:btn3",
+          "name": "延期",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachCard:btn4",
+          "name": "申请",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachCard:btn5",
+          "name": "获取申请结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachCard:btn6",
+          "name": "指纹采集",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "coachFaceReview",
+      "title": "教练人脸审核管理(APP)",
+      "orderNum": 705,
+      "parentCode": "personnel",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "coach/coachFaceReview:btn1",
+          "name": "查看模板",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachFaceReview:btn2",
+          "name": "审核",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "coach/coachFaceReview:btn3",
+          "name": "作废",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "userCenter/roleManage",
+      "title": "角色管理",
+      "orderNum": 706,
+      "parentCode": "personnel",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "userCenter/roleManage:btn1",
+          "name": "新增",
+          "uri": "/api/usercenter/role/create",
+          "method": "POST"
+        },
+        {
+          "code": "userCenter/roleManage:btn2",
+          "name": "权限设置",
+          "uri": "/api/usercenter/role/{*}/resource",
+          "method": "PUT"
+        },
+        {
+          "code": "userCenter/roleManage:btn3",
+          "name": "关联用户",
+          "uri": "/api/usercenter/role/{*}/user/bind",
+          "method": "PUT"
+        },
+        {
+          "code": "userCenter/roleManage:btn4",
+          "name": "查看用户",
+          "uri": "/api/usercenter/role/{*}/user/bind/page",
+          "method": "GET"
+        },
+        {
+          "code": "userCenter/roleManage:btn5",
+          "name": "编辑",
+          "uri": "/api/usercenter/role/{*}/update",
+          "method": "PUT"
+        },
+        {
+          "code": "userCenter/roleManage:btn6",
+          "name": "删除",
+          "uri": "/api/usercenter/role/{*}/delete",
+          "method": "DELETE"
+        },
+        {
+          "code": "userCenter/roleManage:btn_unbind_user",
+          "name": "取消关联",
+          "uri": "/api/usercenter/role/{*}/user/unbind",
+          "method": "PUT"
+        },
+        {
+          "code": "userCenter/roleManage:view",
+          "name": "查看角色列表",
+          "uri": "/api/usercenter/role/page",
+          "method": "GET"
+        },
+        {
+          "code": "userCenter/roleManage:view_resource",
+          "name": "查看资源",
+          "uri": "/api/usercenter/role/{*}/resource",
+          "method": "GET"
+        },
+        {
+          "code": "ignore",
+          "name": "ignore",
+          "uri": "/api/usercenter/user/page",
+          "method": "GET"
+        },
+        {
+          "code": "userCenter/roleManage:btn7",
+          "name": "导出权限",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "userCenter/roleManage:btn8",
+          "name": "导入权限",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "userCenter/userManage",
+      "title": "用户管理",
+      "orderNum": 707,
+      "parentCode": "personnel",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "userCenter/userManage:btn1",
+          "name": "新增用户",
+          "uri": "/api/usercenter/user/createByCompany",
+          "method": "POST"
+        },
+        {
+          "code": "userCenter/userManage:btn3",
+          "name": "编辑",
+          "uri": "/api/usercenter/user/{*}/update",
+          "method": "PUT"
+        },
+        {
+          "code": "userCenter/userManage:btn4",
+          "name": "删除",
+          "uri": "/api/usercenter/user/{*}/deleteByCompany",
+          "method": "DELETE"
+        },
+        {
+          "code": "userCenter/userManage:btn5",
+          "name": "关联已有用户",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "userCenter/userManage:btn6",
+          "name": "审核员设置",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "userCenter/organizationManage",
+      "title": "组织管理",
+      "parentCode": "personnel",
+      "orderNum": 708,
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "userCenter/organizationManage:btn1",
+          "name": "解除关联",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "userCenter/operateLog",
+      "title": "操作记录",
+      "orderNum": 709,
+      "parentCode": "personnel",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "carManage",
+      "title": "车辆管理",
+      "parentCode": "-1",
+      "orderNum": 8,
+      "icon": "CarOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "carInfo",
+      "title": "车辆管理",
+      "orderNum": 801,
+      "parentCode": "carManage",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/carInfo:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn2",
+          "name": "详情",
+          "uri": "/api/jp-train-noncore-svc/v1/schCar/selectByKey",
+          "method": "GET"
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn3",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn4",
+          "name": "启用",
+          "uri": "/api/jp-train-noncore-svc/v1/schCar/updateCarStatus",
+          "method": "PUT"
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn5",
+          "name": "停用",
+          "uri": "/api/jp-train-noncore-svc/v1/schCar/updateCarStatus",
+          "method": "PUT"
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn6",
+          "name": "备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn7",
+          "name": "注销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "ignoreCar",
+          "name": "查询",
+          "uri": "/api/jp-train-noncore-svc/v1/schCar/pageList",
+          "method": "GET"
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn8",
+          "name": "获取审核结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn9",
+          "name": "绑定车辆模型",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn10",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn11",
+          "name": "OBD审核",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn12",
+          "name": "恢复OBD",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn13",
+          "name": "保险记录新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn14",
+          "name": "保险记录编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn15",
+          "name": "保险记录删除",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn16",
+          "name": "保险记录附件上传、查看",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn17",
+          "name": "浙里办模式",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn18",
+          "name": " 同步省监管信息",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/carInfo:btn19",
+          "name": " 设备同步",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "teachingArea",
+      "title": "教学区域",
+      "orderNum": 802,
+      "parentCode": "carManage",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/teachingArea:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/teachingArea:btn2",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/teachingArea:btn3",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/teachingArea:btn4",
+          "name": "注销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/teachingArea:btn5",
+          "name": "备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/teachingArea:btn7",
+          "name": "获取审核结果",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/teachingArea:btn8",
+          "name": "绑定场地模型",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/teachingArea:btn9",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "fenceManagement",
+      "title": "围栏版本",
+      "orderNum": 803,
+      "parentCode": "carManage",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/fenceManagement:btn1",
+          "name": "设置通用围栏",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/fenceManagement:btn2",
+          "name": "发布新版本",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/fenceManagement:btn3",
+          "name": "版本记录",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "fenceManagementNew",
+      "title": "围栏版本(新)",
+      "orderNum": 803.1,
+      "parentCode": "carManage",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/fenceManagementnew:btn1",
+          "name": "设置通用围栏",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/fenceManagementnew:btn2",
+          "name": "发布新版本",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "trainingInstitution/fenceManagementnew:btn3",
+          "name": "版本记录",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "vehicleTrajectory",
+      "title": "车辆轨迹",
+      "orderNum": 804,
+      "parentCode": "carManage",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "carMonitor",
+      "title": "车辆监控",
+      "orderNum": 805,
+      "parentCode": "carManage",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "trainingInstitution/carMonitor:btn1",
+          "name": "拍照",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "videoMonitor",
+      "title": "视频监控",
+      "orderNum": 806,
+      "parentCode": "carManage",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "videoMonitor/videoMonitor:VideoPlayBack",
+          "name": "视频回放",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "carAlarm",
+      "title": "车辆报警",
+      "orderNum": 807,
+      "parentCode": "carManage",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "carManage/carAlarm:btn1",
+          "name": "查看照片",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "carManage/carAlarm:btn2",
+          "name": "查看视频",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "simulator",
+      "title": "模拟器管理",
+      "orderNum": 808,
+      "parentCode": "carManage",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "carManage/simulator:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "carManage/simulator:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "carManage/simulator:btn3",
+          "name": "备案",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "carManage/simulator:btn4",
+          "name": "绑定",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "carManage/simulator:btn5",
+          "name": "解除绑定",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "carManage/simulator:btn6",
+          "name": "监管删除",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "carManage/simulator:btn7",
+          "name": "注销",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "carManage/simulator:btn8",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "pushManagement",
+      "title": "推送管理",
+      "orderNum": 9,
+      "parentCode": "-1",
+      "icon": "SolutionOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "pushManagement/studentPushRecord",
+      "title": "学员推送记录",
+      "orderNum": 901,
+      "parentCode": "pushManagement",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "pushManagement/studentPushRecord:btn1",
+          "name": "推送",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "exam",
+      "title": "考试",
+      "orderNum": 10,
+      "parentCode": "-1",
+      "icon": "ReadOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "exam/examList",
+      "title": "考试名单",
+      "orderNum": 1001,
+      "parentCode": "exam",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "exam/examList:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "exam/examList:btn2",
+          "name": "导入",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "exam/examList:btn3",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "exam/examResult",
+      "title": "考试成绩",
+      "orderNum": 1002,
+      "parentCode": "exam",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "exam/examResult:btn1",
+          "name": "成绩补录",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "exam/examResult:btn2",
+          "name": "导入",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "exam/examResult:btn3",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "exam/qualifiedStudentStatistics",
+      "title": "考出学员统计",
+      "orderNum": 1003,
+      "parentCode": "exam",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "exam/examResultCompare",
+      "title": "考试情况同比",
+      "orderNum": 1004,
+      "parentCode": "exam",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "exam/examPassRate",
+      "title": "考试合格率",
+      "orderNum": 1005,
+      "parentCode": "exam",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "exam/peopleStatistics",
+      "title": "人员统计",
+      "orderNum": 1006,
+      "parentCode": "exam",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "exam/examResultManage",
+      "title": "考试成绩管理",
+      "orderNum": 1007,
+      "parentCode": "exam",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "exam/examResultManage:btn2",
+          "name": "成绩补录",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "exam/examResultManage:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "exam/examResultManage:btn3",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "statistics",
+      "title": "统计管理",
+      "orderNum": 11,
+      "parentCode": "-1",
+      "icon": "FundProjectionScreenOutlined",
+      "type": "dirt",
+      "elements": []
+    },
+    {
+      "code": "trainProject",
+      "title": "培训项目查询",
+      "orderNum": 1100,
+      "parentCode": "statistics",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "coachTrainStatistic",
+      "title": "带教学时统计",
+      "orderNum": 1101,
+      "parentCode": "statistics",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "stuStatistic",
+      "title": "培训综合情况",
+      "orderNum": 1102,
+      "parentCode": "statistics",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "stuExamCompare",
+      "title": "招生情况同比",
+      "orderNum": 1103,
+      "parentCode": "statistics",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "robotCoach",
+      "title": "机器人教练管理",
+      "parentCode": "-1",
+      "icon": "RobotOutlined",
+      "type": "dirt",
+      "orderNum": 12,
+      "elements": []
+    },
+    {
+      "code": "robotCoach/nvrSet",
+      "title": "NVR设置管理",
+      "orderNum": 1201,
+      "parentCode": "robotCoach",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "robotCoach/nvrSet:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "robotCoach/nvrSet:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "robotCoach/nvrSet:btn3",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "robotCoach/nvrSet:btn4",
+          "name": "预览",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "robotCoach/monitorManage",
+      "title": "监控管理",
+      "orderNum": 1202,
+      "parentCode": "robotCoach",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "publicServicePlatform",
+      "title": "公众服务平台后台",
+      "parentCode": "-1",
+      "icon": "DesktopOutlined",
+      "type": "dirt",
+      "orderNum": 13,
+      "elements": []
+    },
+    {
+      "code": "publicServicePlatform/publicServiceIndex",
+      "title": "首页",
+      "orderNum": 1300,
+      "parentCode": "publicServicePlatform",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "publicServicePlatform/schoolSearch",
+      "title": "驾校管理",
+      "orderNum": 1301,
+      "parentCode": "publicServicePlatform",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "publicServicePlatform/schoolSearch:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/schoolSearch:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "publicServicePlatform/coachSearch",
+      "title": "教练管理",
+      "orderNum": 1302,
+      "parentCode": "publicServicePlatform",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "publicServicePlatform/coachSearch:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "publicServicePlatform/studentSearch",
+      "title": "学员管理",
+      "orderNum": 1303,
+      "parentCode": "publicServicePlatform",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "publicServicePlatform/studentSearch:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "publicServicePlatform/evaluateSearch",
+      "title": "评价管理",
+      "orderNum": 1304,
+      "parentCode": "publicServicePlatform",
+      "icon": null,
+      "type": "menu",
+      "elements": []
+    },
+    {
+      "code": "publicServicePlatform/studentPushSearch",
+      "title": "学员推送管理",
+      "orderNum": 1305,
+      "parentCode": "publicServicePlatform",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "publicServicePlatform/studentPushSearch:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "publicServicePlatform/sendNews",
+      "title": "信息发布管理",
+      "orderNum": 1306,
+      "parentCode": "publicServicePlatform",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "publicServicePlatform/sendNews:btn1",
+          "name": "发布信息",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/sendNews:btn2",
+          "name": "预览",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/sendNews:btn3",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/sendNews:btn4",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "publicServicePlatform/pageManage",
+      "title": "页面管理",
+      "orderNum": 1307,
+      "parentCode": "publicServicePlatform",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "publicServicePlatform/pageManage:btn1",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/pageManage:btn2",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/pageManage:btn3",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "publicServicePlatform/templateManage",
+      "title": "模板管理",
+      "orderNum": 1308,
+      "parentCode": "publicServicePlatform",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "publicServicePlatform/templateManage:btn1",
+          "name": "新增栏目",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/templateManage:btn2",
+          "name": "编辑栏目",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/templateManage:btn3",
+          "name": "删除栏目",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/templateManage:btn4",
+          "name": "编辑模板",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/templateManage:btn5",
+          "name": "导出模板",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/templateManage:btn6",
+          "name": "新增模板",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/templateManage:btn7",
+          "name": "导入模板",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "publicServicePlatform/templateManage:btn8",
+          "name": "删除模板",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "smartPassage",
+      "title": "智慧通行管理",
+      "parentCode": "-1",
+      "icon": "RobotOutlined",
+      "type": "dirt",
+      "orderNum": 14,
+      "elements": []
+    },
+    {
+      "code": "smartPassage/personManage",
+      "title": "人员管理",
+      "orderNum": 1401,
+      "parentCode": "smartPassage",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "smartPassage/personManage:btn4",
+          "name": "新增",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "smartPassage/personManage:btn1",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "smartPassage/personManage:btn2",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "smartPassage/personManage:btn3",
+          "name": "启用/禁用",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "smartPassage/personManage:btn5",
+          "name": "编辑",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "smartPassage/personManage:btn6",
+          "name": "启用/禁用",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "message",
+      "title": "消息管理",
+      "parentCode": "-1",
+      "icon": "MessageOutlined",
+      "type": "dirt",
+      "orderNum": 15,
+      "elements": []
+    },
+    {
+      "code": "messageList",
+      "title": "消息列表",
+      "orderNum": 1501,
+      "parentCode": "message",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "messageList:btn1",
+          "name": "删除",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "messageList:btn2",
+          "name": "全部标为已读",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "addService",
+      "title": "增值服务",
+      "parentCode": "-1",
+      "icon": "MessageOutlined",
+      "type": "dirt",
+      "orderNum": 16,
+      "elements": [
+        {
+          "code": "addService:btn1",
+          "name": "增值服务",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "addService/goodsManage",
+      "title": "商品管理",
+      "orderNum": 1601,
+      "parentCode": "addService",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "goodsManage:btn1",
+          "name": "查看分成",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "goodsManage:btn2",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "addService/collectionWallet",
+      "title": "收款钱包",
+      "orderNum": 1602,
+      "parentCode": "addService",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "collectionWallet:btn1",
+          "name": "开通",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "valueAddOrder",
+      "title": "增值订单",
+      "parentCode": "-1",
+      "icon": "MessageOutlined",
+      "type": "dirt",
+      "orderNum": 17,
+      "elements": []
+    },
+    {
+      "code": "valueAddOrder/saleByMe",
+      "title": "我推销的",
+      "orderNum": 1701,
+      "parentCode": "valueAddOrder",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "valueAddOrder/saleByMe:btn1",
+          "name": "申请提现",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "valueAddOrder/saleByMe:btn2",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "valueAddOrder/saleByMe:btn3",
+          "name": "交易记录",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "valueAddOrder/saleByMe:btn4",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "valueAddOrder/withdrawalApplication",
+      "title": "提现申请",
+      "orderNum": 1701,
+      "parentCode": "valueAddOrder",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "valueAddOrder/withdrawalApplication:btn1",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "valueAddOrder/withdrawalApplication:btn2",
+          "name": "提现",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    },
+    {
+      "code": "valueAddOrder/soldByMe",
+      "title": "我卖出的",
+      "orderNum": 1703,
+      "parentCode": "valueAddOrder",
+      "icon": null,
+      "type": "menu",
+      "elements": [
+        {
+          "code": "valueAddOrder/soldByMe:btn1",
+          "name": "申请提现",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "valueAddOrder/soldByMe:btn2",
+          "name": "导出",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "valueAddOrder/soldByMe:btn3",
+          "name": "交易记录",
+          "uri": "",
+          "method": ""
+        },
+        {
+          "code": "valueAddOrder/soldByMe:btn4",
+          "name": "详情",
+          "uri": "",
+          "method": ""
+        }
+      ]
+    }
+  ]
+}

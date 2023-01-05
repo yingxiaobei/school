@@ -1,0 +1,47 @@
+[
+  {
+    "code": "statistics",
+    "title": "统计管理",
+    "orderNum": 11,
+    "parentCode": "-1",
+    "icon": "FundProjectionScreenOutlined",
+    "type": "dirt",
+    "elements": []
+  },
+  {
+    "code": "trainProject",
+    "title": "培训项目查询",
+    "orderNum": 1100,
+    "parentCode": "statistics",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "coachTrainStatistic",
+    "title": "带教学时统计",
+    "orderNum": 1101,
+    "parentCode": "statistics",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "stuStatistic",
+    "title": "培训综合情况",
+    "orderNum": 1102,
+    "parentCode": "statistics",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "stuExamCompare",
+    "title": "招生情况同比",
+    "orderNum": 1103,
+    "parentCode": "statistics",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  }
+]

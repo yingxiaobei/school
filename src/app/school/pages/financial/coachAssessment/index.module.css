@@ -1,0 +1,36 @@
+.wrapper :global .ant-table-row:hover {
+  background-color: #fff;
+}
+
+.summaryTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.carModal {
+  position: relative;
+}
+
+.carModal::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  height: 2px;
+  background-color: black;
+  width: 100%;
+}
+
+.carModal:last-child {
+  border-bottom: none;
+}
+
+.base {
+  color: black !important;
+  font-size: 26px;
+  padding: 24px;
+}
+
+.hidden {
+  display: none;
+}

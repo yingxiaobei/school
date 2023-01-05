@@ -1,0 +1,264 @@
+[
+  {
+    "code": "financial",
+    "title": "财务管理",
+    "orderNum": 5,
+    "parentCode": "-1",
+    "icon": "MoneyCollectOutlined",
+    "type": "dirt",
+    "elements": []
+  },
+  {
+    "code": "financial/wallet",
+    "title": "钱包管理",
+    "orderNum": 501,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "financial/wallet:btn1",
+        "name": "开通/绑定",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/wallet:btn2",
+        "name": "提现",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/wallet:btn3",
+        "name": "绑卡信息",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/wallet:btn4",
+        "name": "交易明细",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/wallet:btn5",
+        "name": "充值",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "financial/studentOrder",
+    "title": "学员订单",
+    "orderNum": 502,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "financial/studentOrder:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/studentOrder:btn2",
+        "name": "改价",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "financial/settlementRecords",
+    "title": "结算记录",
+    "orderNum": 503,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "financial/settlementRecords:btn1",
+        "name": "立即结算",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/settlementRecords:btn2",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "financial/accountDetails",
+    "title": "账务明细",
+    "orderNum": 504,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "financial/transactionRecords",
+    "title": "交易记录",
+    "orderNum": 505,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "financial/transactionRecords:btn1",
+        "name": "退款",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "financial/bankStatement",
+    "title": "银行对账单",
+    "orderNum": 506,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "financial/bankStatement:btn1",
+        "name": "下载",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "financial/wellcomeWallet",
+    "title": "远方钱包",
+    "orderNum": 508,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "financial/wellcomeWallet:btn1",
+        "name": "充值",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/wellcomeWallet:btn2",
+        "name": "充值记录",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/wellcomeWallet:btn3",
+        "name": "消费记录",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/wellcomeWallet:btn4",
+        "name": "退卡记录",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/wellcomeWallet:btn5",
+        "name": "退卡明细",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "financial/coachSubAccount",
+    "title": "教练分账表",
+    "orderNum": 509,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "financial/splitAccount",
+        "name": "分账比例设置",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/splitAccount:btn1",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/splitAccount:btn2",
+        "name": "修改记录",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/splitAccount:btn3",
+        "name": "导入",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "financial/coachSubAccount:btn1",
+        "name": "立即分账",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "financial/coachAssessment",
+    "title": "教练考核",
+    "orderNum": 510,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "financial/coachAssessment:btn1",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "financial/studentDayTable",
+    "title": "学员日结算报表",
+    "orderNum": 511,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "financial/studentDayTable:btn1",
+        "name": "导出当页",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "financial/schoolDayTable",
+    "title": "驾校日结算报表",
+    "orderNum": 512,
+    "parentCode": "financial",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "financial/schoolDayTable:btn1",
+        "name": "导出当页",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

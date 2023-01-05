@@ -1,0 +1,54 @@
+[
+  {
+    "code": "robotCoach",
+    "title": "机器人教练管理",
+    "parentCode": "-1",
+    "icon": "RobotOutlined",
+    "type": "dirt",
+    "orderNum": 12,
+    "elements": []
+  },
+  {
+    "code": "robotCoach/nvrSet",
+    "title": "NVR设置管理",
+    "orderNum": 1201,
+    "parentCode": "robotCoach",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "robotCoach/nvrSet:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "robotCoach/nvrSet:btn2",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "robotCoach/nvrSet:btn3",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "robotCoach/nvrSet:btn4",
+        "name": "预览",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "robotCoach/monitorManage",
+    "title": "监控管理",
+    "orderNum": 1202,
+    "parentCode": "robotCoach",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  }
+]

@@ -1,0 +1,63 @@
+@import 'src/styles/common.scss';
+
+.width-40 {
+  width: 40px;
+}
+.width-50 {
+  width: 50px;
+}
+.width-100 {
+  width: 100px;
+}
+.width-150 {
+  width: 150px;
+}
+.width-200 {
+  width: 200px;
+}
+.height-200 {
+  height: 200px;
+}
+.width-600 {
+  width: 600px;
+}
+.commonBorder {
+  border: 1px solid #dedddd;
+  background: #dedddd;
+  height: 35px;
+  padding: 5px;
+}
+.add-div {
+  @extend .flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.payType-div {
+  height: 50px;
+  background: yellow;
+}
+.payStatusImg {
+  width: 80px;
+  height: 30px;
+}
+.bankImg {
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.cardDiv {
+  border: 1px solid $color-primary;
+  border-top: 8px solid $color-primary;
+  width: 80%;
+  padding: 30px;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.border-line {
+  border-bottom: 1px solid #f3bfc0;
+  padding-bottom: 20px;
+}

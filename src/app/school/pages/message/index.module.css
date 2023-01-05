@@ -1,0 +1,21 @@
+.notRead :global .ant-list-item-meta-title {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+.notRead :global .ant-list-item-meta-title:before {
+  content: '';
+  display: block;
+  background: #f3302b;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  left: -14px;
+}
+.hasRead :global .ant-list-item-meta-title {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.45);
+}

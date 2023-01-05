@@ -1,0 +1,22 @@
+.top {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.top img {
+  margin-right: 16px;
+}
+.title {
+  margin-bottom: 14px;
+  font-size: 24px;
+  font-family: PingFang HK-Semibold, PingFang HK;
+  font-weight: 600;
+  color: #333333;
+  line-height: 28px;
+}
+.text {
+  font-size: 16px;
+  font-family: PingFang SC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #4d4d4d;
+  line-height: 19px;
+}

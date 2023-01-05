@@ -1,0 +1,52 @@
+.pointer {
+  cursor: pointer;
+}
+
+.recharge {
+  display: inline-block;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #f3302b;
+}
+.div1 {
+  border: 1px solid #b6b3b3;
+  border-radius: 10px;
+  width: 220px;
+  height: 100px;
+  margin: 20px;
+  padding: 8px;
+  position: relative;
+  font-weight: bold;
+  padding-top: 14px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // flex-direction: column;
+  font-size: 16px;
+}
+.selected {
+  @extend .div1;
+  border: 3px solid #f3302b;
+}
+.div0 {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 800px;
+}
+.status {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  font-weight: bold;
+}
+.blue {
+  color: aqua;
+}
+
+.generateContract :global input.ant-input {
+  width: 240px !important;
+}
+.alert {
+  width: 500px;
+  min-width: 500px;
+}

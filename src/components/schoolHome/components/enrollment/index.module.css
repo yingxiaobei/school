@@ -1,0 +1,21 @@
+.container {
+  padding: 20px 10px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.body {
+  height: 200px;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+.textWrapper {
+  font-size: 26px;
+}
+
+.textName {
+  font-size: 16px;
+  margin-top: 10px;
+}

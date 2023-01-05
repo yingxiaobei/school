@@ -1,0 +1,75 @@
+[
+  {
+    "code": "Evaluation",
+    "title": "评价管理",
+    "orderNum": 4,
+    "parentCode": "-1",
+    "icon": "LikeOutlined",
+    "type": "dirt",
+    "elements": []
+  },
+  {
+    "code": "coachEvaluation",
+    "title": "教练评价",
+    "orderNum": 401,
+    "parentCode": "Evaluation",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "coach/coachEvaluation:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "coachComplaints",
+    "title": "教练投诉",
+    "orderNum": 402,
+    "parentCode": "Evaluation",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "coach/coachComplaints:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "trainingInstitutionEvaluation",
+    "title": "驾校评价",
+    "orderNum": 403,
+    "parentCode": "Evaluation",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/trainingInstitutionEvaluation:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "trainingInstitutionComplaints",
+    "title": "驾校投诉",
+    "orderNum": 404,
+    "parentCode": "Evaluation",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/trainingInstitutionComplaints:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+.menuBox::-webkit-scrollbar {
+  width: 0px;
+  opacity: 0;
+  -webkit-overflow-scrolling: touch;
+}

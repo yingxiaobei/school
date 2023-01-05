@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>商店</title>
+    <g id="远方驾服" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="驾校首页-班型" transform="translate(-334.000000, -2382.000000)">
+            <g id="编组-18" transform="translate(0.000000, 2256.001606)">
+                <g id="编组-9" transform="translate(334.000000, 126.000000)">
+                    <circle id="椭圆形备份-6" fill="#FE1433" opacity="0.07" cx="41" cy="41" r="41"></circle>
+                    <g id="商店_shop" transform="translate(20.500000, 20.500000)">
+                        <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="41" height="41"></rect>
+                        <path d="M3.41666667,10.25 L37.5833333,10.25 L37.5833333,17.0833333 L36.3887813,17.8000646 C34.4952646,18.9361917 32.1297354,18.9361917 30.2362188,17.8000646 L29.0416667,17.0833333 L27.8471146,17.8000646 C25.9535979,18.9361917 23.5880688,18.9361917 21.6945521,17.8000646 L20.5,17.0833333 L19.3054479,17.8000646 C17.4119313,18.9361917 15.0464021,18.9361917 13.1528854,17.8000646 L11.9583333,17.0833333 L10.7637813,17.8000646 C8.87026458,18.9361917 6.50474396,18.9361917 4.61124438,17.8000646 L3.41666667,17.0833333 L3.41666667,10.25 Z" id="路径" stroke="#333333" stroke-width="3.41666667" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <polyline id="路径" stroke="#333333" stroke-width="3.41666667" stroke-linecap="round" stroke-linejoin="round" points="6.83333333 19.2092688 6.83333333 37.5833333 34.1666667 37.5833333 34.1666667 18.7916667"></polyline>
+                        <polyline id="路径" stroke="#333333" stroke-width="3.41666667" stroke-linecap="round" stroke-linejoin="round" points="6.83333333 10.0981292 6.83333333 3.41666667 34.1666667 3.41666667 34.1666667 10.25"></polyline>
+                        <rect id="矩形" stroke="#333333" stroke-width="3.41666667" stroke-linecap="round" stroke-linejoin="round" x="16.2291667" y="27.3333333" width="8.54166667" height="10.25"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

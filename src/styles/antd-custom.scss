@@ -1,0 +1,135 @@
+@import './common.scss';
+/* 定制antd样式 */
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background: #22262f !important;
+}
+
+.ant-modal-confirm-confirm {
+  top: 200px !important;
+}
+
+/* Input */
+#root .ant-input {
+  width: 180px;
+}
+#searchCol .ant-input {
+  width: 100%;
+  min-width: 100px;
+  // line-height: 30px;
+}
+#searchCol .ant-select {
+  width: 100%;
+  min-width: 100px;
+  // line-height: 30px;
+}
+#searchCol .ant-picker {
+  width: 100%;
+  min-width: 100px;
+  // line-height: 30px;
+}
+/* form表单中的Input */
+.ant-form .ant-input {
+  width: 240px;
+}
+
+/* form表单中的Input */
+.ant-form .ant-input-password .ant-input {
+  width: 100%;
+}
+
+// #root .ant-select {
+//   width: 180px;
+// }
+
+.ant-form .ant-form-item .ant-select {
+  width: 240px;
+}
+
+// 限制Modal的高度
+.ant-modal-body {
+  max-height: 500px;
+  overflow: auto;
+}
+.ant-drawer-body {
+  padding: 10px 24px !important;
+}
+.photoModal .ant-modal-body {
+  max-height: 700px;
+  padding: 10px;
+  overflow: auto;
+}
+/* 表格居中 */
+.ant-table-thead > tr > .ant-table-cell,
+.ant-table-tbody > tr > td {
+  text-align: center;
+}
+.ant-table-thead > tr > th {
+  font-weight: 600 !important;
+}
+.ant-table-placeholder {
+  height: 200px;
+}
+
+.appDownLoad .ant-modal-body {
+  max-height: 600px;
+}
+.ant-tabs-content {
+  height: 100%;
+}
+.carVideoDrawer .ant-drawer-content {
+  background: transparent;
+}
+
+.ant-pagination-total-text {
+  flex: 1 !important;
+}
+// .customDiv .ant-tabs-content {
+//   height: 80vh !important;
+// }
+.ant-table-pagination.ant-pagination {
+  margin: 6px 0 !important;
+}
+button[ant-click-animating-without-extra-node='true']:after {
+  /*取消ant design按钮的点击动画效果 bug7298*/
+  border: 0 none;
+  opacity: 0;
+  animation: none 0 ease 0 1 normal;
+}
+.ant-table-tbody > tr.ant-table-row:hover > td {
+  background: #eeeeee !important;
+}
+.ant-drawer-header-title {
+  flex-direction: row-reverse;
+}
+// 被选中的表格行的样式
+.clickRowStyl td {
+  background-color: #eeeeee;
+}
+
+.rowTree .ant-tree-draggable-icon {
+  width: 0px;
+}
+
+.rowTree .ant-tree-switcher-noop {
+  width: 0px;
+}
+.detailModal .ant-form-item {
+  margin-bottom: 0;
+}
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border-style: dashed;
+  border-color: transparent;
+  border-width: 2px;
+  background-color: rgba(193, 193, 193, 0.4);
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(168, 168, 168);
+}

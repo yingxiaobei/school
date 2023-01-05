@@ -1,0 +1,101 @@
+[
+  {
+    "code": "valueAddOrder",
+    "title": "增值订单",
+    "parentCode": "-1",
+    "icon": "MessageOutlined",
+    "type": "dirt",
+    "orderNum": 17,
+    "elements": []
+  },
+  {
+    "code": "valueAddOrder/saleByMe",
+    "title": "我推销的",
+    "orderNum": 1701,
+    "parentCode": "valueAddOrder",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "valueAddOrder/saleByMe:btn1",
+        "name": "申请提现",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "valueAddOrder/saleByMe:btn2",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "valueAddOrder/saleByMe:btn3",
+        "name": "交易记录",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "valueAddOrder/saleByMe:btn4",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "valueAddOrder/withdrawalApplication",
+    "title": "提现申请",
+    "orderNum": 1701,
+    "parentCode": "valueAddOrder",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "valueAddOrder/withdrawalApplication:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "valueAddOrder/withdrawalApplication:btn2",
+        "name": "提现",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "valueAddOrder/soldByMe",
+    "title": "我卖出的",
+    "orderNum": 1703,
+    "parentCode": "valueAddOrder",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "valueAddOrder/soldByMe:btn1",
+        "name": "申请提现",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "valueAddOrder/soldByMe:btn2",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "valueAddOrder/soldByMe:btn3",
+        "name": "交易记录",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "valueAddOrder/soldByMe:btn4",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

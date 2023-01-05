@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  new-platform-dev:
+    container_name: new-platform-dev
+    env_file: .env.production
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - '1234:80'

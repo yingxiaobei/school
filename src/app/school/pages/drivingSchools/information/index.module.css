@@ -1,0 +1,44 @@
+.infrastructureShow {
+  font-size: 40px;
+}
+.wrapper :last-child {
+  margin: 0;
+}
+.infrastructureShow-not circle {
+  fill: #333;
+}
+.infrastructureBase {
+  font-size: 40px;
+  padding-bottom: 0.4rem;
+}
+.infrastructure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.classTextArea {
+  width: 98% !important;
+}
+
+.siteTagPlus {
+  background: #fff;
+  border-style: dashed;
+}
+.editTag {
+  user-select: none;
+}
+.tagInput {
+  width: 78px;
+  margin-right: 8px;
+  vertical-align: top;
+}
+
+.addressInput {
+  position: absolute;
+  top: 12px;
+  left: 68px;
+  z-index: 99;
+  width: 400px;
+}

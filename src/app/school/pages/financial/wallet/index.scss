@@ -1,0 +1,84 @@
+@import 'src/styles/common.scss';
+.commonCard {
+  width: 420px;
+  height: 340px;
+  background: $color-fff;
+  border: 1px solid #e5e5e5;
+  border-top: 0px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  // border-radius: 4px 4px 0px 0px;
+}
+.commonCard .head {
+  width: 420px;
+  height: 58px;
+  @extend .flex;
+  @extend .fz20;
+  font-weight: 400;
+  color: $color-fff;
+}
+.commonCard .content {
+  padding: 20px 30px 30px 30px;
+  color: '#333333';
+}
+.commonCard .triangle {
+  width: 0;
+  height: 0;
+  border-top: 56px solid $color-fff;
+  border-left: 56px solid transparent;
+}
+.commonCard .status {
+  transform: rotate(45deg);
+  font-size: 16px;
+  position: absolute;
+}
+.commonCard .title {
+  flex: 1;
+  @extend .flex-box;
+}
+
+.commonCard .ant-btn-dangerous {
+  color: $color-primary;
+  border-color: $color-primary;
+}
+
+.wallet-div {
+  @extend .flex-wrap;
+  align-items: center;
+}
+
+.wallet-color {
+  color: #f56c6c;
+}
+.wallet-img-eye {
+  width: 20px;
+  margin-bottom: 6px;
+}
+
+.wallet-openAccount-div {
+  @extend .flex;
+  @extend .direction-col;
+  margin-left: 50px;
+  line-height: '30px';
+}
+.wallet-span {
+  width: 80px;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: distribute-all-lines; // 这行必加，兼容: ;
+  display: inline-block;
+}
+.wallet-title-span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 260px;
+}
+
+.commonCard .children {
+  @extend .flex;
+  @extend .direction-col;
+  align-items: center;
+}
+.btn-110 {
+  width: 110px;
+}

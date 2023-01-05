@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>储物箱</title>
+    <g id="远方驾服" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="驾校首页-班型" transform="translate(-481.000000, -2382.000000)">
+            <g id="编组-18" transform="translate(0.000000, 2256.001606)">
+                <g id="编组-4" transform="translate(481.000000, 126.000000)">
+                    <circle id="椭圆形备份-7" fill="#FE1433" opacity="0.07" cx="41" cy="41" r="41"></circle>
+                    <g id="盒子_box" transform="translate(19.000000, 19.000000)">
+                        <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="44" height="44"></rect>
+                        <rect id="矩形" stroke="#333333" stroke-width="3.66666667" stroke-linejoin="round" x="5.5" y="11" width="33" height="27.5" rx="1.83333333"></rect>
+                        <line x1="16.4539833" y1="22.0076083" x2="27.4539833" y2="22.0076083" id="路径" stroke="#333333" stroke-width="3.66666667" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <polyline id="路径" stroke="#333333" stroke-width="3.66666667" stroke-linecap="round" stroke-linejoin="round" points="5.5 11.9166667 11.9166667 4.58333333 32.0833333 4.58333333 38.5 11.9166667"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

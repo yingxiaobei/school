@@ -1,0 +1,131 @@
+[
+  {
+    "code": "exam",
+    "title": "考试",
+    "orderNum": 10,
+    "parentCode": "-1",
+    "icon": "ReadOutlined",
+    "type": "dirt",
+    "elements": []
+  },
+  {
+    "code": "exam/examList",
+    "title": "考试名单",
+    "orderNum": 1001,
+    "parentCode": "exam",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "exam/examList:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "exam/examList:btn2",
+        "name": "导入",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "exam/examList:btn3",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "exam/examResult",
+    "title": "考试成绩",
+    "orderNum": 1002,
+    "parentCode": "exam",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "exam/examResult:btn1",
+        "name": "成绩补录",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "exam/examResult:btn2",
+        "name": "导入",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "exam/examResult:btn3",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "exam/qualifiedStudentStatistics",
+    "title": "考出学员统计",
+    "orderNum": 1003,
+    "parentCode": "exam",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "exam/examResultCompare",
+    "title": "考试情况同比",
+    "orderNum": 1004,
+    "parentCode": "exam",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "exam/examPassRate",
+    "title": "考试合格率",
+    "orderNum": 1005,
+    "parentCode": "exam",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "exam/peopleStatistics",
+    "title": "人员统计",
+    "orderNum": 1006,
+    "parentCode": "exam",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "exam/examResultManage",
+    "title": "考试成绩管理",
+    "orderNum": 1007,
+    "parentCode": "exam",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "exam/examResultManage:btn2",
+        "name": "成绩补录",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "exam/examResultManage:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "exam/examResultManage:btn3",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "code": "addService",
+    "title": "增值服务",
+    "parentCode": "-1",
+    "icon": "MessageOutlined",
+    "type": "dirt",
+    "orderNum": 16,
+    "elements": [
+      {
+        "code": "addService:btn1",
+        "name": "增值服务",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "addService/goodsManage",
+    "title": "商品管理",
+    "orderNum": 1601,
+    "parentCode": "addService",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "goodsManage:btn1",
+        "name": "查看分成",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "goodsManage:btn2",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "addService/collectionWallet",
+    "title": "收款钱包",
+    "orderNum": 1602,
+    "parentCode": "addService",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "collectionWallet:btn1",
+        "name": "开通",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

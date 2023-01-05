@@ -1,0 +1,27 @@
+[
+  {
+    "code": "pushManagement",
+    "title": "推送管理",
+    "orderNum": 9,
+    "parentCode": "-1",
+    "icon": "SolutionOutlined",
+    "type": "dirt",
+    "elements": []
+  },
+  {
+    "code": "pushManagement/studentPushRecord",
+    "title": "学员推送记录",
+    "orderNum": 901,
+    "parentCode": "pushManagement",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "pushManagement/studentPushRecord:btn1",
+        "name": "推送",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

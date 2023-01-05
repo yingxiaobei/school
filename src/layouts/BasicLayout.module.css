@@ -1,0 +1,56 @@
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.header-right {
+  float: right;
+  padding: 0 24px;
+}
+.footWords {
+  width: 100%;
+  text-align: center;
+}
+.footWords div {
+  font-size: 12px;
+  color: #999999;
+}
+.aLink {
+  color: #999999;
+  cursor: pointer;
+}
+.aLink:hover {
+  color: #999999;
+}
+.ant-layout-footer {
+  padding: 10px 50px !important;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  /* 100% {
+    opacity: 1;
+    transform: translateX(0);
+  } */
+}
+
+.testAnimate {
+  animation: fade 0.5s linear;
+  /* position: absolute; */
+}

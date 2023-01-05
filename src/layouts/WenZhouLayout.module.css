@@ -1,0 +1,161 @@
+.headerBox {
+  margin: 0 auto;
+  width: 1200px;
+  color: #000;
+}
+
+.navTab {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navTab > span {
+  cursor: pointer;
+}
+
+.footIntroduce {
+  background: #24252e;
+  padding: 20px 0;
+  color: #fff;
+  border-top: 6px solid #c7000b;
+}
+
+.footWords {
+  width: 100%;
+  text-align: center;
+  background: #2c2d37;
+  padding: 20px 0;
+}
+
+.footMain {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footerInfo {
+  display: flex;
+  width: 900px;
+  justify-content: space-around;
+}
+
+.footerInfo > div {
+  flex: 1;
+}
+
+.footerInfo > div > div:nth-child(1) {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footerInfo > div > div:nth-child(2) > div {
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.contactWay > div {
+  line-height: 28px !important;
+  font-size: 16px !important;
+}
+
+.contactWay > div > span:nth-child(2) {
+  margin: 0 10px;
+}
+
+.contactWay > div > span:nth-child(3) {
+  color: #fff;
+}
+
+.qrCode {
+  width: 100px;
+  text-align: 'right';
+}
+
+.footerLogo {
+  width: 300px;
+  text-align: left;
+  border-right: 1px solid #3c3d48;
+  margin-right: 70px;
+}
+
+.footWords div {
+  font-size: 12px;
+  color: #999999;
+  font-family: 'MicrosoftYaHei';
+  line-height: 20px;
+}
+
+.aLink {
+  color: #999999;
+  cursor: pointer;
+}
+
+.aLink:hover {
+  color: #999999;
+}
+
+.ant-layout-footer {
+  padding: 10px 50px !important;
+}
+
+.tabLIne {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 4px;
+  width: 85px;
+  text-align: center;
+}
+
+.bottomBox {
+  width: 68px;
+  height: 68px;
+  margin-top: 10px;
+  text-align: center;
+  background: #fff;
+  padding-top: 10px;
+  box-shadow: 1px 2px 3px 0px rgba(182, 0, 6, 0.1);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bottomIcon {
+  height: 30px;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+.bottomTitle {
+  text-align: center;
+}
+.cityItem {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.cityItem:hover {
+  color: #f00;
+}
+.footImg {
+  margin-right: 5px;
+}
+
+.wrapper {
+  background: url('../statics/images/portal/bg.png') no-repeat !important;
+  height: 100%;
+}
+
+.appDownloadBg {
+  background: url('../statics/images/portal/appBg.png') no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+  margin-top: 10px;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+}

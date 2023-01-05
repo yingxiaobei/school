@@ -1,0 +1,219 @@
+[
+  {
+    "code": "publicServicePlatform",
+    "title": "公众服务平台后台",
+    "parentCode": "-1",
+    "icon": "DesktopOutlined",
+    "type": "dirt",
+    "orderNum": 13,
+    "elements": []
+  },
+  {
+    "code": "publicServicePlatform/publicServiceIndex",
+    "title": "首页",
+    "orderNum": 1300,
+    "parentCode": "publicServicePlatform",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "publicServicePlatform/schoolSearch",
+    "title": "驾校管理",
+    "orderNum": 1301,
+    "parentCode": "publicServicePlatform",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "publicServicePlatform/schoolSearch:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/schoolSearch:btn2",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "publicServicePlatform/coachSearch",
+    "title": "教练管理",
+    "orderNum": 1302,
+    "parentCode": "publicServicePlatform",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "publicServicePlatform/coachSearch:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "publicServicePlatform/studentSearch",
+    "title": "学员管理",
+    "orderNum": 1303,
+    "parentCode": "publicServicePlatform",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "publicServicePlatform/studentSearch:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "publicServicePlatform/evaluateSearch",
+    "title": "评价管理",
+    "orderNum": 1304,
+    "parentCode": "publicServicePlatform",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "publicServicePlatform/studentPushSearch",
+    "title": "学员推送管理",
+    "orderNum": 1305,
+    "parentCode": "publicServicePlatform",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "publicServicePlatform/studentPushSearch:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "publicServicePlatform/sendNews",
+    "title": "信息发布管理",
+    "orderNum": 1306,
+    "parentCode": "publicServicePlatform",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "publicServicePlatform/sendNews:btn1",
+        "name": "发布信息",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/sendNews:btn2",
+        "name": "预览",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/sendNews:btn3",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/sendNews:btn4",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "publicServicePlatform/pageManage",
+    "title": "页面管理",
+    "orderNum": 1307,
+    "parentCode": "publicServicePlatform",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "publicServicePlatform/pageManage:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/pageManage:btn2",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/pageManage:btn3",
+        "name": "删除",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "publicServicePlatform/templateManage",
+    "title": "模板管理",
+    "orderNum": 1308,
+    "parentCode": "publicServicePlatform",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "publicServicePlatform/templateManage:btn1",
+        "name": "新增栏目",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/templateManage:btn2",
+        "name": "编辑栏目",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/templateManage:btn3",
+        "name": "删除栏目",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/templateManage:btn4",
+        "name": "编辑模板",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/templateManage:btn5",
+        "name": "导出模板",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/templateManage:btn6",
+        "name": "新增模板",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/templateManage:btn7",
+        "name": "导入模板",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "publicServicePlatform/templateManage:btn8",
+        "name": "删除模板",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]

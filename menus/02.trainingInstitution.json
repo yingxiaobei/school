@@ -1,0 +1,450 @@
+[
+  {
+    "code": "trainingInstitution",
+    "title": "培训管理",
+    "parentCode": "-1",
+    "icon": "CalendarOutlined",
+    "type": "dirt",
+    "orderNum": 2,
+    "elements": []
+  },
+  {
+    "code": "teachingJournal",
+    "title": "电子教学日志",
+    "orderNum": 201,
+    "parentCode": "trainingInstitution",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/teachingJournal:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn2",
+        "name": "上传",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn3",
+        "name": "学时初审",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn4",
+        "name": "查询",
+        "uri": "",
+        "method": "GET"
+      },
+      {
+        "code": "student/teachingJournal:btn5",
+        "name": "批量上传",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn6",
+        "name": "查询审核结果",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:iscyzg",
+        "name": "从业资格学时",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn7",
+        "name": "批量补传",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn8",
+        "name": "批量学时初审(批量有效/无效)",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn9",
+        "name": "详情-学时有效",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn10",
+        "name": "详情-学时无效",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn11",
+        "name": "详情-上传",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn12",
+        "name": "修改编号",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn13",
+        "name": "获取设备照片",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn14",
+        "name": "批量上传-确定上传",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btnAppeal",
+        "name": "申诉",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btnMinutes",
+        "name": "补传分钟学时",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn15",
+        "name": "分钟学时-设为有效",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:btn16",
+        "name": "分钟学时-设为无效",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/teachingJournal:equipmentPhotoLog",
+        "name": "获取设备照片交互日志展示",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "finalAssessment",
+    "title": "结业考核",
+    "orderNum": 202,
+    "parentCode": "trainingInstitution",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/finalAssessment:btn1",
+        "name": "新增",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/finalAssessment:btn2",
+        "name": "编辑",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/finalAssessment:btn3",
+        "name": "从业培训结业考核",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "phasedReview",
+    "title": "阶段报审",
+    "orderNum": 203,
+    "parentCode": "trainingInstitution",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/phasedReview:btn1",
+        "name": "初审",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn2",
+        "name": "撤销",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn3",
+        "name": "获取审核结果",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn4",
+        "name": "上报",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn5",
+        "name": "批量上报",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn6",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn7",
+        "name": "学员签字",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:traincerttime",
+        "name": "可报审学时(从业资格)",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:outlineCertTotaltime",
+        "name": "额定学时(从业资格)",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn10",
+        "name": "补传培训记录单",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn11",
+        "name": "修正异常学时",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn12",
+        "name": "学员签名",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn13",
+        "name": "批量-获取审核结果",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn14",
+        "name": "重新上报",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn15",
+        "name": "推送公安",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn16",
+        "name": "配比学时管理",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn17",
+        "name": "删除配比学时",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn18",
+        "name": "上传学时证明",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn19",
+        "name": "重新生成配比学时",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn20",
+        "name": "清空培训记录单",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn21",
+        "name": "教练员签名",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/phasedReview:btn22",
+        "name": "考核员签名",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "trainingDetailReview",
+    "title": "培训明细",
+    "orderNum": 204,
+    "parentCode": "trainingInstitution",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "student/trainingDetailReview:btn1",
+        "name": "详情",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/trainingDetailReview:btn2",
+        "name": "上传",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/trainingDetailReview:btn3",
+        "name": "学时初审",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/trainingDetailReview:btn4",
+        "name": "分钟设为有效",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/trainingDetailReview:btn5",
+        "name": "分钟设为无效",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/trainingDetailReview:btn6",
+        "name": "反选",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "student/trainingDetailReview:btnAppeal",
+        "name": "申诉",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "signReset",
+    "title": "签到复位",
+    "orderNum": 206,
+    "parentCode": "trainingInstitution",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "teach/signReset:btn1",
+        "name": "学员复位",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "teach/signReset:btn2",
+        "name": "教练复位",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "classHourAudit",
+    "title": "学时审核管理",
+    "orderNum": 207,
+    "parentCode": "trainingInstitution",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/classHourAudit:btn1",
+        "name": "批量有效",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/classHourAudit:btn2",
+        "name": "批量无效",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/classHourAudit:btn3",
+        "name": "学时无效",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/classHourAudit:btn4",
+        "name": "学时有效",
+        "uri": "",
+        "method": ""
+      },
+      {
+        "code": "trainingInstitution/classHourAudit:btn5",
+        "name": "计时申诉",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  },
+  {
+    "code": "networkPhaseTesting",
+    "title": "网络阶段测试",
+    "orderNum": 208,
+    "parentCode": "trainingInstitution",
+    "icon": null,
+    "type": "menu",
+    "elements": []
+  },
+  {
+    "code": "simulatorTrain",
+    "title": "模拟器培训",
+    "orderNum": 209,
+    "parentCode": "trainingInstitution",
+    "icon": null,
+    "type": "menu",
+    "elements": [
+      {
+        "code": "trainingInstitution/simulatorTrain:export",
+        "name": "导出",
+        "uri": "",
+        "method": ""
+      }
+    ]
+  }
+]
